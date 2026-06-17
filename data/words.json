@@ -1,0 +1,6700 @@
+{
+  "1": [
+    {
+      "word": "an",
+      "meaning": "一个"
+    },
+    {
+      "word": "and",
+      "meaning": "和"
+    },
+    {
+      "word": "ant",
+      "meaning": "蚂蚁"
+    },
+    {
+      "word": "apple",
+      "meaning": "苹果"
+    },
+    {
+      "word": "at",
+      "meaning": "在"
+    },
+    {
+      "word": "ax",
+      "meaning": "斧头"
+    },
+    {
+      "word": "cat",
+      "meaning": "猫"
+    },
+    {
+      "word": "catch",
+      "meaning": "抓住"
+    }
+  ],
+  "2": [
+    {
+      "word": "bathroom",
+      "meaning": "浴室"
+    },
+    {
+      "word": "banana",
+      "meaning": "香蕉"
+    },
+    {
+      "word": "balloon",
+      "meaning": "气球"
+    },
+    {
+      "word": "beach",
+      "meaning": "海滩"
+    },
+    {
+      "word": "build",
+      "meaning": "建造/修建"
+    },
+    {
+      "word": "busy",
+      "meaning": "忙碌的"
+    },
+    {
+      "word": "butterfly",
+      "meaning": "蝴蝶"
+    },
+    {
+      "word": "buy",
+      "meaning": "买"
+    }
+  ],
+  "3": [
+    {
+      "word": "camel",
+      "meaning": "骆驼"
+    },
+    {
+      "word": "cola",
+      "meaning": "可乐"
+    },
+    {
+      "word": "collect",
+      "meaning": "收集"
+    },
+    {
+      "word": "colour",
+      "meaning": "颜色"
+    },
+    {
+      "word": "come",
+      "meaning": "来"
+    },
+    {
+      "word": "computer",
+      "meaning": "电脑"
+    },
+    {
+      "word": "cookie",
+      "meaning": "曲奇饼"
+    },
+    {
+      "word": "corn",
+      "meaning": "玉米"
+    }
+  ],
+  "4": [
+    {
+      "word": "dance",
+      "meaning": "跳舞"
+    },
+    {
+      "word": "day",
+      "meaning": "一天"
+    },
+    {
+      "word": "desk",
+      "meaning": "课桌"
+    },
+    {
+      "word": "dinosaur",
+      "meaning": "恐龙"
+    },
+    {
+      "word": "do",
+      "meaning": "做/干"
+    },
+    {
+      "word": "doctor",
+      "meaning": "医生"
+    },
+    {
+      "word": "donut",
+      "meaning": "甜甜圈"
+    },
+    {
+      "word": "door",
+      "meaning": "门"
+    }
+  ],
+  "5": [
+    {
+      "word": "chess",
+      "meaning": "国际象棋"
+    },
+    {
+      "word": "egg",
+      "meaning": "鸡蛋"
+    },
+    {
+      "word": "else",
+      "meaning": "此外/其他"
+    },
+    {
+      "word": "elf",
+      "meaning": "小精灵"
+    },
+    {
+      "word": "end",
+      "meaning": "结尾"
+    },
+    {
+      "word": "every",
+      "meaning": "每个"
+    },
+    {
+      "word": "exit",
+      "meaning": "出口"
+    },
+    {
+      "word": "leg",
+      "meaning": "腿"
+    }
+  ],
+  "6": [
+    {
+      "word": "after",
+      "meaning": "在...之后/照看"
+    },
+    {
+      "word": "finger",
+      "meaning": "手指"
+    },
+    {
+      "word": "fire",
+      "meaning": "火/着火"
+    },
+    {
+      "word": "fish",
+      "meaning": "鱼"
+    },
+    {
+      "word": "five",
+      "meaning": "五"
+    },
+    {
+      "word": "for",
+      "meaning": "给/为了"
+    },
+    {
+      "word": "four",
+      "meaning": "四"
+    },
+    {
+      "word": "fries",
+      "meaning": "薯条"
+    }
+  ],
+  "7": [
+    {
+      "word": "garden",
+      "meaning": "花园"
+    },
+    {
+      "word": "go",
+      "meaning": "走"
+    },
+    {
+      "word": "goat",
+      "meaning": "山羊"
+    },
+    {
+      "word": "gorilla",
+      "meaning": "大猩猩"
+    },
+    {
+      "word": "gold",
+      "meaning": "金/金色"
+    },
+    {
+      "word": "goldfish",
+      "meaning": "金鱼"
+    },
+    {
+      "word": "golf",
+      "meaning": "高尔夫球"
+    },
+    {
+      "word": "good",
+      "meaning": "好的"
+    }
+  ],
+  "8": [
+    {
+      "word": "happy",
+      "meaning": "快乐的"
+    },
+    {
+      "word": "hello",
+      "meaning": "你好"
+    },
+    {
+      "word": "here",
+      "meaning": "这里"
+    },
+    {
+      "word": "hippo",
+      "meaning": "河马"
+    },
+    {
+      "word": "his",
+      "meaning": "他的"
+    },
+    {
+      "word": "history",
+      "meaning": "历史"
+    },
+    {
+      "word": "hold",
+      "meaning": "抓住/按住"
+    },
+    {
+      "word": "hotel",
+      "meaning": "酒店"
+    }
+  ],
+  "9": [
+    {
+      "word": "give",
+      "meaning": "给"
+    },
+    {
+      "word": "him",
+      "meaning": "他(宾格)"
+    },
+    {
+      "word": "if",
+      "meaning": "如果"
+    },
+    {
+      "word": "in",
+      "meaning": "在……内"
+    },
+    {
+      "word": "ink",
+      "meaning": "墨水"
+    },
+    {
+      "word": "its",
+      "meaning": "它的"
+    },
+    {
+      "word": "little",
+      "meaning": "小的"
+    },
+    {
+      "word": "live",
+      "meaning": "居住"
+    }
+  ],
+  "10": [
+    {
+      "word": "jacket",
+      "meaning": "夹克衫/羽绒服"
+    },
+    {
+      "word": "jeans",
+      "meaning": "牛仔裤"
+    },
+    {
+      "word": "jellyfish",
+      "meaning": "水母"
+    },
+    {
+      "word": "job",
+      "meaning": "工作"
+    },
+    {
+      "word": "juice",
+      "meaning": "果汁"
+    },
+    {
+      "word": "July",
+      "meaning": "七月"
+    },
+    {
+      "word": "June",
+      "meaning": "六月"
+    },
+    {
+      "word": "just",
+      "meaning": "刚刚"
+    }
+  ],
+  "11": [
+    {
+      "word": "cook",
+      "meaning": "做饭"
+    },
+    {
+      "word": "drink",
+      "meaning": "喝"
+    },
+    {
+      "word": "kettle",
+      "meaning": "水壶"
+    },
+    {
+      "word": "key",
+      "meaning": "钥匙"
+    },
+    {
+      "word": "kilo",
+      "meaning": "千克"
+    },
+    {
+      "word": "king",
+      "meaning": "国王"
+    },
+    {
+      "word": "koala",
+      "meaning": "考拉"
+    },
+    {
+      "word": "milk",
+      "meaning": "牛奶"
+    }
+  ],
+  "12": [
+    {
+      "word": "label",
+      "meaning": "标签"
+    },
+    {
+      "word": "last",
+      "meaning": "最后的"
+    },
+    {
+      "word": "leaf",
+      "meaning": "树叶"
+    },
+    {
+      "word": "lion",
+      "meaning": "狮子"
+    },
+    {
+      "word": "litter",
+      "meaning": "垃圾"
+    },
+    {
+      "word": "lizard",
+      "meaning": "蜥蜴"
+    },
+    {
+      "word": "love",
+      "meaning": "喜爱"
+    },
+    {
+      "word": "pilot",
+      "meaning": "飞行员"
+    }
+  ],
+  "13": [
+    {
+      "word": "cold",
+      "meaning": "冷的"
+    },
+    {
+      "word": "film",
+      "meaning": "电影"
+    },
+    {
+      "word": "helmet",
+      "meaning": "头盔"
+    },
+    {
+      "word": "old",
+      "meaning": "老的"
+    },
+    {
+      "word": "purple",
+      "meaning": "紫色的"
+    },
+    {
+      "word": "puzzle",
+      "meaning": "拼图游戏"
+    },
+    {
+      "word": "steal",
+      "meaning": "偷窃"
+    },
+    {
+      "word": "table",
+      "meaning": "桌子"
+    }
+  ],
+  "14": [
+    {
+      "word": "arm",
+      "meaning": "胳膊"
+    },
+    {
+      "word": "mango",
+      "meaning": "芒果"
+    },
+    {
+      "word": "master",
+      "meaning": "大师"
+    },
+    {
+      "word": "model",
+      "meaning": "模型"
+    },
+    {
+      "word": "modern",
+      "meaning": "现代的"
+    },
+    {
+      "word": "mouse",
+      "meaning": "老鼠"
+    },
+    {
+      "word": "my",
+      "meaning": "我的"
+    },
+    {
+      "word": "warm",
+      "meaning": "温暖的"
+    }
+  ],
+  "15": [
+    {
+      "word": "animal",
+      "meaning": "动物"
+    },
+    {
+      "word": "nervous",
+      "meaning": "紧张的"
+    },
+    {
+      "word": "net",
+      "meaning": "网"
+    },
+    {
+      "word": "next",
+      "meaning": "下一个的"
+    },
+    {
+      "word": "nod",
+      "meaning": "点头"
+    },
+    {
+      "word": "nose",
+      "meaning": "鼻子"
+    },
+    {
+      "word": "only",
+      "meaning": "仅仅"
+    }
+  ],
+  "16": [
+    {
+      "word": "body",
+      "meaning": "身体"
+    },
+    {
+      "word": "of",
+      "meaning": "的"
+    },
+    {
+      "word": "off",
+      "meaning": "离开"
+    },
+    {
+      "word": "olive",
+      "meaning": "橄榄"
+    },
+    {
+      "word": "on",
+      "meaning": "在……上"
+    },
+    {
+      "word": "orange",
+      "meaning": "橙子"
+    },
+    {
+      "word": "ostrich",
+      "meaning": "鸵鸟"
+    },
+    {
+      "word": "ox",
+      "meaning": "牛"
+    }
+  ],
+  "17": [
+    {
+      "word": "panda",
+      "meaning": "熊猫"
+    },
+    {
+      "word": "peach",
+      "meaning": "桃子"
+    },
+    {
+      "word": "pencil",
+      "meaning": "铅笔"
+    },
+    {
+      "word": "penguin",
+      "meaning": "企鹅"
+    },
+    {
+      "word": "people",
+      "meaning": "人们/民族"
+    },
+    {
+      "word": "pizza",
+      "meaning": "比萨饼"
+    },
+    {
+      "word": "police",
+      "meaning": "警察"
+    },
+    {
+      "word": "pupil",
+      "meaning": "学生"
+    }
+  ],
+  "18": [
+    {
+      "word": "quarter",
+      "meaning": "一刻钟"
+    },
+    {
+      "word": "queen",
+      "meaning": "女王"
+    },
+    {
+      "word": "question",
+      "meaning": "问题"
+    },
+    {
+      "word": "quick",
+      "meaning": "快的"
+    },
+    {
+      "word": "quiet",
+      "meaning": "安静的"
+    },
+    {
+      "word": "quilt",
+      "meaning": "被子"
+    },
+    {
+      "word": "quite",
+      "meaning": "相当"
+    },
+    {
+      "word": "quiz",
+      "meaning": "问答/比赛"
+    }
+  ],
+  "19": [
+    {
+      "word": "library",
+      "meaning": "图书馆"
+    },
+    {
+      "word": "rabbit",
+      "meaning": "兔子"
+    },
+    {
+      "word": "rainbow",
+      "meaning": "彩虹"
+    },
+    {
+      "word": "really",
+      "meaning": "真正地"
+    },
+    {
+      "word": "relax",
+      "meaning": "放松"
+    },
+    {
+      "word": "rest",
+      "meaning": "休息"
+    },
+    {
+      "word": "robot",
+      "meaning": "机器人"
+    },
+    {
+      "word": "ruler",
+      "meaning": "尺子"
+    }
+  ],
+  "20": [
+    {
+      "word": "ask",
+      "meaning": "询问"
+    },
+    {
+      "word": "safe",
+      "meaning": "安全的"
+    },
+    {
+      "word": "salad",
+      "meaning": "沙拉"
+    },
+    {
+      "word": "seal",
+      "meaning": "海豹"
+    },
+    {
+      "word": "sister",
+      "meaning": "姐/妹"
+    },
+    {
+      "word": "sofa",
+      "meaning": "沙发"
+    },
+    {
+      "word": "soup",
+      "meaning": "汤"
+    },
+    {
+      "word": "sour",
+      "meaning": "酸的"
+    }
+  ],
+  "21": [
+    {
+      "word": "taxi",
+      "meaning": "出租车"
+    },
+    {
+      "word": "teacher",
+      "meaning": "老师"
+    },
+    {
+      "word": "tired",
+      "meaning": "累的"
+    },
+    {
+      "word": "toilet",
+      "meaning": "厕所"
+    },
+    {
+      "word": "toe",
+      "meaning": "脚趾"
+    },
+    {
+      "word": "tomato",
+      "meaning": "番茄"
+    },
+    {
+      "word": "tongue",
+      "meaning": "舌头"
+    },
+    {
+      "word": "touch",
+      "meaning": "触摸"
+    }
+  ],
+  "22": [
+    {
+      "word": "bus",
+      "meaning": "公共汽车"
+    },
+    {
+      "word": "mud",
+      "meaning": "泥"
+    },
+    {
+      "word": "umbrella",
+      "meaning": "雨伞"
+    },
+    {
+      "word": "uncle",
+      "meaning": "叔叔"
+    },
+    {
+      "word": "under",
+      "meaning": "在……下"
+    },
+    {
+      "word": "up",
+      "meaning": "向上"
+    },
+    {
+      "word": "upset",
+      "meaning": "不高兴的/伤心"
+    },
+    {
+      "word": "us",
+      "meaning": "我们"
+    }
+  ],
+  "23": [
+    {
+      "word": "vase",
+      "meaning": "花瓶"
+    },
+    {
+      "word": "very",
+      "meaning": "非常"
+    },
+    {
+      "word": "vest",
+      "meaning": "背心"
+    },
+    {
+      "word": "vet",
+      "meaning": "兽医"
+    },
+    {
+      "word": "victory",
+      "meaning": "胜利"
+    },
+    {
+      "word": "village",
+      "meaning": "村庄"
+    },
+    {
+      "word": "violin",
+      "meaning": "小提琴"
+    },
+    {
+      "word": "voice",
+      "meaning": "嗓音"
+    }
+  ],
+  "24": [
+    {
+      "word": "wait",
+      "meaning": "等待"
+    },
+    {
+      "word": "want",
+      "meaning": "想要"
+    },
+    {
+      "word": "water",
+      "meaning": "水"
+    },
+    {
+      "word": "we",
+      "meaning": "我们"
+    },
+    {
+      "word": "web",
+      "meaning": "网"
+    },
+    {
+      "word": "weight",
+      "meaning": "重量"
+    },
+    {
+      "word": "wolf",
+      "meaning": "狼"
+    },
+    {
+      "word": "woman",
+      "meaning": "女人"
+    }
+  ],
+  "25": [
+    {
+      "word": "box",
+      "meaning": "盒子"
+    },
+    {
+      "word": "fax",
+      "meaning": "传真"
+    },
+    {
+      "word": "fix",
+      "meaning": "修理"
+    },
+    {
+      "word": "fox",
+      "meaning": "狐狸"
+    },
+    {
+      "word": "six",
+      "meaning": "六"
+    },
+    {
+      "word": "sixteen",
+      "meaning": "十六"
+    },
+    {
+      "word": "sixty",
+      "meaning": "六十"
+    },
+    {
+      "word": "wax",
+      "meaning": "蜡"
+    }
+  ],
+  "26": [
+    {
+      "word": "yard",
+      "meaning": "后院"
+    },
+    {
+      "word": "year",
+      "meaning": "年"
+    },
+    {
+      "word": "yogurt",
+      "meaning": "酸奶"
+    },
+    {
+      "word": "you",
+      "meaning": "你"
+    },
+    {
+      "word": "young",
+      "meaning": "年轻的"
+    },
+    {
+      "word": "your",
+      "meaning": "你的"
+    },
+    {
+      "word": "yo-yo",
+      "meaning": "溜溜球"
+    },
+    {
+      "word": "yummy",
+      "meaning": "美味的"
+    }
+  ],
+  "27": [
+    {
+      "word": "lazy",
+      "meaning": "懒惰的"
+    },
+    {
+      "word": "amazing",
+      "meaning": "惊人的"
+    },
+    {
+      "word": "size",
+      "meaning": "尺码"
+    },
+    {
+      "word": "zebra",
+      "meaning": "斑马"
+    },
+    {
+      "word": "zero",
+      "meaning": "零"
+    },
+    {
+      "word": "zipper",
+      "meaning": "拉链"
+    },
+    {
+      "word": "zone",
+      "meaning": "地区"
+    },
+    {
+      "word": "zoo",
+      "meaning": "动物园"
+    }
+  ],
+  "28": [
+    {
+      "word": "as",
+      "meaning": "作为"
+    },
+    {
+      "word": "Canada",
+      "meaning": "加拿大"
+    },
+    {
+      "word": "exam",
+      "meaning": "考试"
+    },
+    {
+      "word": "has",
+      "meaning": "有/吃"
+    },
+    {
+      "word": "have",
+      "meaning": "有/吃"
+    },
+    {
+      "word": "lamp",
+      "meaning": "灯"
+    },
+    {
+      "word": "parrot",
+      "meaning": "鹦鹉"
+    },
+    {
+      "word": "practise",
+      "meaning": "练习/实践"
+    }
+  ],
+  "29": [
+    {
+      "word": "bad",
+      "meaning": "坏的"
+    },
+    {
+      "word": "dad",
+      "meaning": "爸爸"
+    },
+    {
+      "word": "glad",
+      "meaning": "高兴的"
+    },
+    {
+      "word": "had",
+      "meaning": "有(have的过去式)"
+    },
+    {
+      "word": "lad",
+      "meaning": "小伙子"
+    },
+    {
+      "word": "mad",
+      "meaning": "生气的"
+    },
+    {
+      "word": "pad",
+      "meaning": "软垫"
+    },
+    {
+      "word": "sad",
+      "meaning": "伤心的"
+    }
+  ],
+  "30": [
+    {
+      "word": "bag",
+      "meaning": "包"
+    },
+    {
+      "word": "drag",
+      "meaning": "拖/拽"
+    },
+    {
+      "word": "dragon",
+      "meaning": "龙"
+    },
+    {
+      "word": "fag",
+      "meaning": "苦工"
+    },
+    {
+      "word": "flag",
+      "meaning": "旗帜"
+    },
+    {
+      "word": "magazine",
+      "meaning": "杂志"
+    },
+    {
+      "word": "rag",
+      "meaning": "抹布"
+    },
+    {
+      "word": "tag",
+      "meaning": "标签"
+    }
+  ],
+  "31": [
+    {
+      "word": "am",
+      "meaning": "是"
+    },
+    {
+      "word": "bamboo",
+      "meaning": "竹子"
+    },
+    {
+      "word": "dam",
+      "meaning": "堤/坝"
+    },
+    {
+      "word": "hamburger",
+      "meaning": "汉堡"
+    },
+    {
+      "word": "ham",
+      "meaning": "火腿"
+    },
+    {
+      "word": "jam",
+      "meaning": "果酱"
+    },
+    {
+      "word": "ram",
+      "meaning": "公羊"
+    },
+    {
+      "word": "yam",
+      "meaning": "山药"
+    }
+  ],
+  "32": [
+    {
+      "word": "can",
+      "meaning": "能/会"
+    },
+    {
+      "word": "candy",
+      "meaning": "糖果"
+    },
+    {
+      "word": "candle",
+      "meaning": "蜡烛"
+    },
+    {
+      "word": "fan",
+      "meaning": "风扇"
+    },
+    {
+      "word": "man",
+      "meaning": "男人"
+    },
+    {
+      "word": "pan",
+      "meaning": "平底锅"
+    },
+    {
+      "word": "ran",
+      "meaning": "跑(run的过去式)"
+    },
+    {
+      "word": "van",
+      "meaning": "小型货车"
+    }
+  ],
+  "33": [
+    {
+      "word": "cap",
+      "meaning": "帽子"
+    },
+    {
+      "word": "clap",
+      "meaning": "拍手"
+    },
+    {
+      "word": "gap",
+      "meaning": "缝隙"
+    },
+    {
+      "word": "laptop",
+      "meaning": "笔记本电脑"
+    },
+    {
+      "word": "map",
+      "meaning": "地图"
+    },
+    {
+      "word": "nap",
+      "meaning": "打盹"
+    },
+    {
+      "word": "rap",
+      "meaning": "说唱"
+    },
+    {
+      "word": "tap",
+      "meaning": "水龙头"
+    }
+  ],
+  "34": [
+    {
+      "word": "bat",
+      "meaning": "蝙蝠"
+    },
+    {
+      "word": "cat",
+      "meaning": "猫"
+    },
+    {
+      "word": "chat",
+      "meaning": "聊天"
+    },
+    {
+      "word": "fat",
+      "meaning": "肥胖的"
+    },
+    {
+      "word": "hat",
+      "meaning": "帽子"
+    },
+    {
+      "word": "mat",
+      "meaning": "地垫"
+    },
+    {
+      "word": "rat",
+      "meaning": "老鼠"
+    },
+    {
+      "word": "sat",
+      "meaning": "坐"
+    }
+  ],
+  "35": [
+    {
+      "word": "back",
+      "meaning": "背部/后面"
+    },
+    {
+      "word": "black",
+      "meaning": "黑色"
+    },
+    {
+      "word": "crack",
+      "meaning": "裂缝"
+    },
+    {
+      "word": "jacket",
+      "meaning": "夹克衫"
+    },
+    {
+      "word": "lack",
+      "meaning": "缺乏"
+    },
+    {
+      "word": "pack",
+      "meaning": "包裹"
+    },
+    {
+      "word": "snack",
+      "meaning": "零食/点心"
+    },
+    {
+      "word": "track",
+      "meaning": "小道/踪迹"
+    }
+  ],
+  "36": [
+    {
+      "word": "cash",
+      "meaning": "现金"
+    },
+    {
+      "word": "crash",
+      "meaning": "坠毁"
+    },
+    {
+      "word": "dash",
+      "meaning": "猛冲"
+    },
+    {
+      "word": "lash",
+      "meaning": "抽打"
+    },
+    {
+      "word": "flash",
+      "meaning": "闪光"
+    },
+    {
+      "word": "smash",
+      "meaning": "打碎"
+    },
+    {
+      "word": "tash",
+      "meaning": "小胡子"
+    },
+    {
+      "word": "trash",
+      "meaning": "垃圾"
+    }
+  ],
+  "37": [
+    {
+      "word": "and",
+      "meaning": "和"
+    },
+    {
+      "word": "band",
+      "meaning": "乐队"
+    },
+    {
+      "word": "brand",
+      "meaning": "品牌/商标"
+    },
+    {
+      "word": "grand",
+      "meaning": "宏伟的"
+    },
+    {
+      "word": "hand",
+      "meaning": "手"
+    },
+    {
+      "word": "land",
+      "meaning": "陆地"
+    },
+    {
+      "word": "sand",
+      "meaning": "沙子"
+    },
+    {
+      "word": "stand",
+      "meaning": "站立"
+    }
+  ],
+  "38": [
+    {
+      "word": "face",
+      "meaning": "脸/面部"
+    },
+    {
+      "word": "grace",
+      "meaning": "优雅"
+    },
+    {
+      "word": "lace",
+      "meaning": "蕾丝/鞋带"
+    },
+    {
+      "word": "pace",
+      "meaning": "速度/节奏"
+    },
+    {
+      "word": "place",
+      "meaning": "地点/场所"
+    },
+    {
+      "word": "race",
+      "meaning": "比赛"
+    },
+    {
+      "word": "space",
+      "meaning": "空间"
+    }
+  ],
+  "39": [
+    {
+      "word": "bake",
+      "meaning": "烤/烘"
+    },
+    {
+      "word": "cake",
+      "meaning": "蛋糕"
+    },
+    {
+      "word": "lake",
+      "meaning": "湖"
+    },
+    {
+      "word": "make",
+      "meaning": "制造/制定"
+    },
+    {
+      "word": "snake",
+      "meaning": "蛇"
+    },
+    {
+      "word": "take",
+      "meaning": "拿走"
+    },
+    {
+      "word": "wake",
+      "meaning": "醒来"
+    }
+  ],
+  "40": [
+    {
+      "word": "female",
+      "meaning": "女性的"
+    },
+    {
+      "word": "male",
+      "meaning": "男性的"
+    },
+    {
+      "word": "pale",
+      "meaning": "苍白的"
+    },
+    {
+      "word": "sale",
+      "meaning": "销售"
+    },
+    {
+      "word": "scale",
+      "meaning": "规模"
+    },
+    {
+      "word": "tale",
+      "meaning": "故事"
+    },
+    {
+      "word": "whale",
+      "meaning": "鲸鱼"
+    }
+  ],
+  "41": [
+    {
+      "word": "fame",
+      "meaning": "名誉"
+    },
+    {
+      "word": "flame",
+      "meaning": "火焰"
+    },
+    {
+      "word": "frame",
+      "meaning": "框架"
+    },
+    {
+      "word": "game",
+      "meaning": "游戏"
+    },
+    {
+      "word": "name",
+      "meaning": "名字"
+    },
+    {
+      "word": "same",
+      "meaning": "一模一样的"
+    },
+    {
+      "word": "tame",
+      "meaning": "驯服"
+    }
+  ],
+  "42": [
+    {
+      "word": "date",
+      "meaning": "日期"
+    },
+    {
+      "word": "gate",
+      "meaning": "大门"
+    },
+    {
+      "word": "late",
+      "meaning": "晚的"
+    },
+    {
+      "word": "mate",
+      "meaning": "伙伴"
+    },
+    {
+      "word": "plate",
+      "meaning": "盘子"
+    },
+    {
+      "word": "skate",
+      "meaning": "滑冰"
+    },
+    {
+      "word": "state",
+      "meaning": "状态/州"
+    }
+  ],
+  "43": [
+    {
+      "word": "baby",
+      "meaning": "婴儿"
+    },
+    {
+      "word": "crazy",
+      "meaning": "疯狂的"
+    },
+    {
+      "word": "lady",
+      "meaning": "女士"
+    },
+    {
+      "word": "lazy",
+      "meaning": "懒惰的"
+    },
+    {
+      "word": "navy",
+      "meaning": "海军"
+    },
+    {
+      "word": "wavy",
+      "meaning": "波纹状的/卷发"
+    }
+  ],
+  "44": [
+    {
+      "word": "able",
+      "meaning": "能够"
+    },
+    {
+      "word": "April",
+      "meaning": "四月"
+    },
+    {
+      "word": "Asia",
+      "meaning": "亚洲"
+    },
+    {
+      "word": "major",
+      "meaning": "专业"
+    },
+    {
+      "word": "paper",
+      "meaning": "纸张"
+    },
+    {
+      "word": "potato",
+      "meaning": "土豆"
+    },
+    {
+      "word": "save",
+      "meaning": "救助/节省"
+    },
+    {
+      "word": "table",
+      "meaning": "桌子"
+    }
+  ],
+  "45": [
+    {
+      "word": "afraid",
+      "meaning": "害怕的"
+    },
+    {
+      "word": "mail",
+      "meaning": "邮件"
+    },
+    {
+      "word": "paint",
+      "meaning": "油漆"
+    },
+    {
+      "word": "rain",
+      "meaning": "雨"
+    },
+    {
+      "word": "rainy",
+      "meaning": "下雨的"
+    },
+    {
+      "word": "sail",
+      "meaning": "航行"
+    },
+    {
+      "word": "snail",
+      "meaning": "蜗牛"
+    },
+    {
+      "word": "train",
+      "meaning": "火车"
+    }
+  ],
+  "46": [
+    {
+      "word": "bay",
+      "meaning": "海湾"
+    },
+    {
+      "word": "day",
+      "meaning": "一天"
+    },
+    {
+      "word": "Friday",
+      "meaning": "星期五"
+    },
+    {
+      "word": "holiday",
+      "meaning": "假期"
+    },
+    {
+      "word": "May",
+      "meaning": "五月"
+    },
+    {
+      "word": "may",
+      "meaning": "可能"
+    },
+    {
+      "word": "Monday",
+      "meaning": "星期一"
+    },
+    {
+      "word": "pay",
+      "meaning": "支付"
+    },
+    {
+      "word": "play",
+      "meaning": "玩"
+    }
+  ],
+  "47": [
+    {
+      "word": "Saturday",
+      "meaning": "星期六"
+    },
+    {
+      "word": "say",
+      "meaning": "说/讲"
+    },
+    {
+      "word": "stay",
+      "meaning": "停留"
+    },
+    {
+      "word": "Sunday",
+      "meaning": "星期日"
+    },
+    {
+      "word": "today",
+      "meaning": "今天"
+    },
+    {
+      "word": "Tuesday",
+      "meaning": "星期二"
+    },
+    {
+      "word": "Thursday",
+      "meaning": "星期四"
+    },
+    {
+      "word": "Wednesday",
+      "meaning": "星期三"
+    }
+  ],
+  "48": [
+    {
+      "word": "dawn",
+      "meaning": "黎明"
+    },
+    {
+      "word": "draw",
+      "meaning": "绘画"
+    },
+    {
+      "word": "jaw",
+      "meaning": "下巴"
+    },
+    {
+      "word": "law",
+      "meaning": "法律"
+    },
+    {
+      "word": "paw",
+      "meaning": "爪子"
+    },
+    {
+      "word": "saw",
+      "meaning": "锯/看见"
+    },
+    {
+      "word": "seesaw",
+      "meaning": "跷跷板"
+    },
+    {
+      "word": "straw",
+      "meaning": "稻草"
+    }
+  ],
+  "49": [
+    {
+      "word": "art",
+      "meaning": "美术"
+    },
+    {
+      "word": "car",
+      "meaning": "汽车"
+    },
+    {
+      "word": "card",
+      "meaning": "贺卡"
+    },
+    {
+      "word": "dark",
+      "meaning": "黑暗的"
+    },
+    {
+      "word": "far",
+      "meaning": "远"
+    },
+    {
+      "word": "farm",
+      "meaning": "农场"
+    },
+    {
+      "word": "farmer",
+      "meaning": "农民"
+    },
+    {
+      "word": "guitar",
+      "meaning": "吉他"
+    },
+    {
+      "word": "hard",
+      "meaning": "努力地"
+    }
+  ],
+  "50": [
+    {
+      "word": "large",
+      "meaning": "大的"
+    },
+    {
+      "word": "March",
+      "meaning": "三月"
+    },
+    {
+      "word": "park",
+      "meaning": "公园"
+    },
+    {
+      "word": "party",
+      "meaning": "聚会"
+    },
+    {
+      "word": "smart",
+      "meaning": "聪明的"
+    },
+    {
+      "word": "star",
+      "meaning": "星星"
+    },
+    {
+      "word": "start",
+      "meaning": "开始"
+    },
+    {
+      "word": "yard",
+      "meaning": "院子"
+    }
+  ],
+  "51": [
+    {
+      "word": "almond",
+      "meaning": "杏仁"
+    },
+    {
+      "word": "balm",
+      "meaning": "香油"
+    },
+    {
+      "word": "behalf",
+      "meaning": "代表"
+    },
+    {
+      "word": "calf",
+      "meaning": "牛犊"
+    },
+    {
+      "word": "calm",
+      "meaning": "镇静的"
+    },
+    {
+      "word": "half",
+      "meaning": "一半"
+    },
+    {
+      "word": "palm",
+      "meaning": "手掌"
+    }
+  ],
+  "52": [
+    {
+      "word": "all",
+      "meaning": "全部"
+    },
+    {
+      "word": "ball",
+      "meaning": "球"
+    },
+    {
+      "word": "basketball",
+      "meaning": "篮球"
+    },
+    {
+      "word": "baseball",
+      "meaning": "棒球"
+    },
+    {
+      "word": "call",
+      "meaning": "打电话"
+    },
+    {
+      "word": "fall",
+      "meaning": "落下"
+    },
+    {
+      "word": "football",
+      "meaning": "足球"
+    },
+    {
+      "word": "hall",
+      "meaning": "大厅"
+    }
+  ],
+  "53": [
+    {
+      "word": "mall",
+      "meaning": "购物中心"
+    },
+    {
+      "word": "recall",
+      "meaning": "回想起"
+    },
+    {
+      "word": "small",
+      "meaning": "小的"
+    },
+    {
+      "word": "talk",
+      "meaning": "谈话"
+    },
+    {
+      "word": "tall",
+      "meaning": "高的"
+    },
+    {
+      "word": "walk",
+      "meaning": "走路"
+    },
+    {
+      "word": "wall",
+      "meaning": "墙壁"
+    },
+    {
+      "word": "waterfall",
+      "meaning": "瀑布"
+    }
+  ],
+  "54": [
+    {
+      "word": "want",
+      "meaning": "想要"
+    },
+    {
+      "word": "quality",
+      "meaning": "质量"
+    },
+    {
+      "word": "was",
+      "meaning": "是"
+    },
+    {
+      "word": "wash",
+      "meaning": "清洗"
+    },
+    {
+      "word": "washer",
+      "meaning": "洗涤器"
+    },
+    {
+      "word": "washroom",
+      "meaning": "洗手间"
+    },
+    {
+      "word": "watch",
+      "meaning": "看"
+    },
+    {
+      "word": "what",
+      "meaning": "什么"
+    }
+  ],
+  "55": [
+    {
+      "word": "almost",
+      "meaning": "差不多"
+    },
+    {
+      "word": "already",
+      "meaning": "已经"
+    },
+    {
+      "word": "also",
+      "meaning": "也"
+    },
+    {
+      "word": "alter",
+      "meaning": "改变"
+    },
+    {
+      "word": "always",
+      "meaning": "总是"
+    },
+    {
+      "word": "FALSE",
+      "meaning": "错误的"
+    },
+    {
+      "word": "salt",
+      "meaning": "盐"
+    },
+    {
+      "word": "water",
+      "meaning": "水"
+    }
+  ],
+  "56": [
+    {
+      "word": "air",
+      "meaning": "空气"
+    },
+    {
+      "word": "airport",
+      "meaning": "机场"
+    },
+    {
+      "word": "airship",
+      "meaning": "飞艇"
+    },
+    {
+      "word": "chair",
+      "meaning": "椅子"
+    },
+    {
+      "word": "fair",
+      "meaning": "公平的"
+    },
+    {
+      "word": "hair",
+      "meaning": "头发"
+    },
+    {
+      "word": "pair",
+      "meaning": "一双"
+    },
+    {
+      "word": "stair",
+      "meaning": "楼梯"
+    }
+  ],
+  "57": [
+    {
+      "word": "care",
+      "meaning": "照顾"
+    },
+    {
+      "word": "careful",
+      "meaning": "小心的"
+    },
+    {
+      "word": "careless",
+      "meaning": "粗心的"
+    },
+    {
+      "word": "hare",
+      "meaning": "野兔"
+    },
+    {
+      "word": "share",
+      "meaning": "分享"
+    },
+    {
+      "word": "spare",
+      "meaning": "空闲的"
+    },
+    {
+      "word": "square",
+      "meaning": "广场"
+    },
+    {
+      "word": "stare",
+      "meaning": "凝视"
+    }
+  ],
+  "58": [
+    {
+      "word": "desk",
+      "meaning": "书桌"
+    },
+    {
+      "word": "help",
+      "meaning": "帮助"
+    },
+    {
+      "word": "hotel",
+      "meaning": "酒店"
+    },
+    {
+      "word": "lemon",
+      "meaning": "柠檬"
+    },
+    {
+      "word": "next",
+      "meaning": "下一个的"
+    },
+    {
+      "word": "seven",
+      "meaning": "七"
+    },
+    {
+      "word": "seventy",
+      "meaning": "七十"
+    },
+    {
+      "word": "spell",
+      "meaning": "拼写"
+    }
+  ],
+  "59": [
+    {
+      "word": "bed",
+      "meaning": "床"
+    },
+    {
+      "word": "bled",
+      "meaning": "流血"
+    },
+    {
+      "word": "fed",
+      "meaning": "喂养"
+    },
+    {
+      "word": "led",
+      "meaning": "领导"
+    },
+    {
+      "word": "red",
+      "meaning": "红的"
+    },
+    {
+      "word": "shed",
+      "meaning": "棚屋"
+    },
+    {
+      "word": "sled",
+      "meaning": "雪橇"
+    },
+    {
+      "word": "wed",
+      "meaning": "结婚"
+    }
+  ],
+  "60": [
+    {
+      "word": "den",
+      "meaning": "兽穴"
+    },
+    {
+      "word": "dentist",
+      "meaning": "牙医"
+    },
+    {
+      "word": "hen",
+      "meaning": "母鸡"
+    },
+    {
+      "word": "men",
+      "meaning": "男人"
+    },
+    {
+      "word": "pen",
+      "meaning": "钢笔"
+    },
+    {
+      "word": "ten",
+      "meaning": "十"
+    },
+    {
+      "word": "then",
+      "meaning": "当时"
+    },
+    {
+      "word": "when",
+      "meaning": "什么时候"
+    }
+  ],
+  "61": [
+    {
+      "word": "bet",
+      "meaning": "打赌"
+    },
+    {
+      "word": "forget",
+      "meaning": "忘记"
+    },
+    {
+      "word": "get",
+      "meaning": "到达/得到"
+    },
+    {
+      "word": "let",
+      "meaning": "让"
+    },
+    {
+      "word": "net",
+      "meaning": "网"
+    },
+    {
+      "word": "pet",
+      "meaning": "宠物"
+    },
+    {
+      "word": "vet",
+      "meaning": "兽医"
+    },
+    {
+      "word": "wet",
+      "meaning": "湿的"
+    }
+  ],
+  "62": [
+    {
+      "word": "bell",
+      "meaning": "钟/铃"
+    },
+    {
+      "word": "cell",
+      "meaning": "细胞"
+    },
+    {
+      "word": "sell",
+      "meaning": "出售"
+    },
+    {
+      "word": "shell",
+      "meaning": "壳"
+    },
+    {
+      "word": "smell",
+      "meaning": "气味"
+    },
+    {
+      "word": "tell",
+      "meaning": "告诉"
+    },
+    {
+      "word": "well",
+      "meaning": "健康/好"
+    },
+    {
+      "word": "yell",
+      "meaning": "叫喊"
+    }
+  ],
+  "63": [
+    {
+      "word": "bent",
+      "meaning": "弯曲"
+    },
+    {
+      "word": "cent",
+      "meaning": "分"
+    },
+    {
+      "word": "dentist",
+      "meaning": "牙医"
+    },
+    {
+      "word": "lent",
+      "meaning": "借给"
+    },
+    {
+      "word": "sent",
+      "meaning": "寄出"
+    },
+    {
+      "word": "spent",
+      "meaning": "花费"
+    },
+    {
+      "word": "tent",
+      "meaning": "帐篷"
+    },
+    {
+      "word": "went",
+      "meaning": "去"
+    }
+  ],
+  "64": [
+    {
+      "word": "end",
+      "meaning": "结束"
+    },
+    {
+      "word": "defend",
+      "meaning": "保卫"
+    },
+    {
+      "word": "friend",
+      "meaning": "朋友"
+    },
+    {
+      "word": "lend",
+      "meaning": "借给"
+    },
+    {
+      "word": "mend",
+      "meaning": "缝补"
+    },
+    {
+      "word": "send",
+      "meaning": "邮寄"
+    },
+    {
+      "word": "spend",
+      "meaning": "度过/花费"
+    },
+    {
+      "word": "weekend",
+      "meaning": "周末"
+    }
+  ],
+  "65": [
+    {
+      "word": "best",
+      "meaning": "最好的"
+    },
+    {
+      "word": "chest",
+      "meaning": "胸部"
+    },
+    {
+      "word": "festival",
+      "meaning": "节日"
+    },
+    {
+      "word": "nest",
+      "meaning": "窝/巢"
+    },
+    {
+      "word": "pest",
+      "meaning": "害虫"
+    },
+    {
+      "word": "test",
+      "meaning": "测验/考试"
+    },
+    {
+      "word": "west",
+      "meaning": "西/西方"
+    }
+  ],
+  "66": [
+    {
+      "word": "bear",
+      "meaning": "熊"
+    },
+    {
+      "word": "pear",
+      "meaning": "梨"
+    },
+    {
+      "word": "swear",
+      "meaning": "发誓"
+    },
+    {
+      "word": "tear",
+      "meaning": "撕碎"
+    },
+    {
+      "word": "wear",
+      "meaning": "穿/戴"
+    },
+    {
+      "word": "wearing",
+      "meaning": "磨损的"
+    }
+  ],
+  "67": [
+    {
+      "word": "ear",
+      "meaning": "耳朵"
+    },
+    {
+      "word": "clear",
+      "meaning": "清楚的"
+    },
+    {
+      "word": "dear",
+      "meaning": "亲爱的"
+    },
+    {
+      "word": "hear",
+      "meaning": "听到"
+    },
+    {
+      "word": "near",
+      "meaning": "在附近"
+    },
+    {
+      "word": "nearby",
+      "meaning": "附近的"
+    },
+    {
+      "word": "tear",
+      "meaning": "眼泪"
+    },
+    {
+      "word": "year",
+      "meaning": "年"
+    }
+  ],
+  "68": [
+    {
+      "word": "early",
+      "meaning": "提早的"
+    },
+    {
+      "word": "earn",
+      "meaning": "挣钱"
+    },
+    {
+      "word": "earth",
+      "meaning": "地球"
+    },
+    {
+      "word": "heard",
+      "meaning": "听到"
+    },
+    {
+      "word": "learn",
+      "meaning": "学习"
+    },
+    {
+      "word": "pearl",
+      "meaning": "珍珠"
+    },
+    {
+      "word": "search",
+      "meaning": "搜查"
+    }
+  ],
+  "69": [
+    {
+      "word": "beer",
+      "meaning": "啤酒"
+    },
+    {
+      "word": "career",
+      "meaning": "职业"
+    },
+    {
+      "word": "cheer",
+      "meaning": "欢呼"
+    },
+    {
+      "word": "deer",
+      "meaning": "鹿"
+    },
+    {
+      "word": "engineer",
+      "meaning": "工程师"
+    },
+    {
+      "word": "peer",
+      "meaning": "同龄人"
+    },
+    {
+      "word": "pioneer",
+      "meaning": "先锋"
+    },
+    {
+      "word": "volunteer",
+      "meaning": "志愿者"
+    }
+  ],
+  "70": [
+    {
+      "word": "chew",
+      "meaning": "咀嚼"
+    },
+    {
+      "word": "crew",
+      "meaning": "组员"
+    },
+    {
+      "word": "drew",
+      "meaning": "画"
+    },
+    {
+      "word": "flew",
+      "meaning": "飞"
+    },
+    {
+      "word": "grew",
+      "meaning": "成长"
+    },
+    {
+      "word": "screw",
+      "meaning": "螺丝"
+    },
+    {
+      "word": "threw",
+      "meaning": "抛/扔"
+    }
+  ],
+  "71": [
+    {
+      "word": "dew",
+      "meaning": "露水"
+    },
+    {
+      "word": "few",
+      "meaning": "很少"
+    },
+    {
+      "word": "new",
+      "meaning": "新的"
+    },
+    {
+      "word": "news",
+      "meaning": "消息"
+    },
+    {
+      "word": "nephew",
+      "meaning": "侄子/外甥"
+    },
+    {
+      "word": "review",
+      "meaning": "复习"
+    },
+    {
+      "word": "stew",
+      "meaning": "炖/煨"
+    },
+    {
+      "word": "view",
+      "meaning": "观点"
+    }
+  ],
+  "72": [
+    {
+      "word": "her",
+      "meaning": "她(的)"
+    },
+    {
+      "word": "hers",
+      "meaning": "她的"
+    },
+    {
+      "word": "herself",
+      "meaning": "她自己"
+    },
+    {
+      "word": "nervous",
+      "meaning": "紧张的"
+    },
+    {
+      "word": "person",
+      "meaning": "人"
+    },
+    {
+      "word": "service",
+      "meaning": "服务"
+    },
+    {
+      "word": "term",
+      "meaning": "学期"
+    },
+    {
+      "word": "university",
+      "meaning": "大学"
+    }
+  ],
+  "73": [
+    {
+      "word": "answer",
+      "meaning": "回答"
+    },
+    {
+      "word": "dinner",
+      "meaning": "晚餐/正餐"
+    },
+    {
+      "word": "eraser",
+      "meaning": "橡皮擦"
+    },
+    {
+      "word": "farmer",
+      "meaning": "农民"
+    },
+    {
+      "word": "fever",
+      "meaning": "发烧"
+    },
+    {
+      "word": "never",
+      "meaning": "决不/永不"
+    },
+    {
+      "word": "river",
+      "meaning": "河/江"
+    },
+    {
+      "word": "sister",
+      "meaning": "姐姐/妹妹"
+    }
+  ],
+  "74": [
+    {
+      "word": "igloo",
+      "meaning": "冰屋"
+    },
+    {
+      "word": "fifty",
+      "meaning": "五十"
+    },
+    {
+      "word": "film",
+      "meaning": "电影"
+    },
+    {
+      "word": "fish",
+      "meaning": "鱼"
+    },
+    {
+      "word": "live",
+      "meaning": "生存"
+    },
+    {
+      "word": "minute",
+      "meaning": "分钟"
+    },
+    {
+      "word": "miss",
+      "meaning": "错过/想念"
+    },
+    {
+      "word": "strict",
+      "meaning": "严厉的"
+    }
+  ],
+  "75": [
+    {
+      "word": "bid",
+      "meaning": "出价"
+    },
+    {
+      "word": "did",
+      "meaning": "做"
+    },
+    {
+      "word": "hid",
+      "meaning": "隐藏"
+    },
+    {
+      "word": "kid",
+      "meaning": "小孩儿"
+    },
+    {
+      "word": "lid",
+      "meaning": "盖子"
+    },
+    {
+      "word": "rid",
+      "meaning": "摆脱"
+    },
+    {
+      "word": "video",
+      "meaning": "录像"
+    },
+    {
+      "word": "width",
+      "meaning": "宽度"
+    }
+  ],
+  "76": [
+    {
+      "word": "chip",
+      "meaning": "炸薯条"
+    },
+    {
+      "word": "lip",
+      "meaning": "嘴唇"
+    },
+    {
+      "word": "ship",
+      "meaning": "船/舰"
+    },
+    {
+      "word": "slip",
+      "meaning": "滑倒"
+    },
+    {
+      "word": "skip",
+      "meaning": "跳绳"
+    },
+    {
+      "word": "tip",
+      "meaning": "小费"
+    },
+    {
+      "word": "trip",
+      "meaning": "旅行"
+    },
+    {
+      "word": "zip",
+      "meaning": "拉链"
+    }
+  ],
+  "77": [
+    {
+      "word": "favourite",
+      "meaning": "最喜爱的"
+    },
+    {
+      "word": "fit",
+      "meaning": "合身"
+    },
+    {
+      "word": "hit",
+      "meaning": "打/击"
+    },
+    {
+      "word": "it",
+      "meaning": "它"
+    },
+    {
+      "word": "pit",
+      "meaning": "坑/洼"
+    },
+    {
+      "word": "rabbit",
+      "meaning": "兔子"
+    },
+    {
+      "word": "sit",
+      "meaning": "就座"
+    },
+    {
+      "word": "visit",
+      "meaning": "参观"
+    }
+  ],
+  "78": [
+    {
+      "word": "big",
+      "meaning": "大的"
+    },
+    {
+      "word": "dig",
+      "meaning": "挖"
+    },
+    {
+      "word": "fig",
+      "meaning": "无花果"
+    },
+    {
+      "word": "pig",
+      "meaning": "猪"
+    },
+    {
+      "word": "rig",
+      "meaning": "操纵"
+    },
+    {
+      "word": "tig",
+      "meaning": "戏弄"
+    },
+    {
+      "word": "wig",
+      "meaning": "假发"
+    },
+    {
+      "word": "zig",
+      "meaning": "急转"
+    }
+  ],
+  "79": [
+    {
+      "word": "begin",
+      "meaning": "开始"
+    },
+    {
+      "word": "bin",
+      "meaning": "垃圾桶"
+    },
+    {
+      "word": "kin",
+      "meaning": "家属"
+    },
+    {
+      "word": "pin",
+      "meaning": "别针"
+    },
+    {
+      "word": "print",
+      "meaning": "打印"
+    },
+    {
+      "word": "skin",
+      "meaning": "皮肤"
+    },
+    {
+      "word": "twin",
+      "meaning": "双胞胎之一"
+    },
+    {
+      "word": "win",
+      "meaning": "赢"
+    }
+  ],
+  "80": [
+    {
+      "word": "brick",
+      "meaning": "砖块"
+    },
+    {
+      "word": "chick",
+      "meaning": "小鸡"
+    },
+    {
+      "word": "kick",
+      "meaning": "踢"
+    },
+    {
+      "word": "pick",
+      "meaning": "采/摘"
+    },
+    {
+      "word": "sick",
+      "meaning": "生病的"
+    },
+    {
+      "word": "stick",
+      "meaning": "粘/枝条"
+    },
+    {
+      "word": "tick",
+      "meaning": "嘀嗒声"
+    },
+    {
+      "word": "ticket",
+      "meaning": "票"
+    }
+  ],
+  "81": [
+    {
+      "word": "bill",
+      "meaning": "账单"
+    },
+    {
+      "word": "fill",
+      "meaning": "充满"
+    },
+    {
+      "word": "hill",
+      "meaning": "山丘"
+    },
+    {
+      "word": "ill",
+      "meaning": "有病的"
+    },
+    {
+      "word": "million",
+      "meaning": "百万"
+    },
+    {
+      "word": "pill",
+      "meaning": "药片"
+    },
+    {
+      "word": "still",
+      "meaning": "依旧/仍然"
+    },
+    {
+      "word": "will",
+      "meaning": "将要"
+    }
+  ],
+  "82": [
+    {
+      "word": "blink",
+      "meaning": "眨眼"
+    },
+    {
+      "word": "drink",
+      "meaning": "喝"
+    },
+    {
+      "word": "ink",
+      "meaning": "墨水"
+    },
+    {
+      "word": "link",
+      "meaning": "连接"
+    },
+    {
+      "word": "pink",
+      "meaning": "粉红色的"
+    },
+    {
+      "word": "sink",
+      "meaning": "下沉"
+    },
+    {
+      "word": "think",
+      "meaning": "认为/思考"
+    },
+    {
+      "word": "twinkle",
+      "meaning": "闪烁"
+    }
+  ],
+  "83": [
+    {
+      "word": "British",
+      "meaning": "英国的"
+    },
+    {
+      "word": "childish",
+      "meaning": "孩子般的"
+    },
+    {
+      "word": "dish",
+      "meaning": "盘/菜肴"
+    },
+    {
+      "word": "finish",
+      "meaning": "完成"
+    },
+    {
+      "word": "fish",
+      "meaning": "鱼/鱼肉"
+    },
+    {
+      "word": "wish",
+      "meaning": "希望"
+    }
+  ],
+  "84": [
+    {
+      "word": "any",
+      "meaning": "任何的"
+    },
+    {
+      "word": "candy",
+      "meaning": "糖果"
+    },
+    {
+      "word": "city",
+      "meaning": "城市"
+    },
+    {
+      "word": "ferry",
+      "meaning": "渡船"
+    },
+    {
+      "word": "funny",
+      "meaning": "有趣的"
+    },
+    {
+      "word": "hobby",
+      "meaning": "业余爱好"
+    },
+    {
+      "word": "many",
+      "meaning": "很多"
+    },
+    {
+      "word": "windy",
+      "meaning": "多风的"
+    }
+  ],
+  "85": [
+    {
+      "word": "donkey",
+      "meaning": "驴"
+    },
+    {
+      "word": "hockey",
+      "meaning": "曲棍球"
+    },
+    {
+      "word": "honey",
+      "meaning": "蜂蜜"
+    },
+    {
+      "word": "money",
+      "meaning": "钱"
+    },
+    {
+      "word": "monkey",
+      "meaning": "猴子"
+    },
+    {
+      "word": "trolley",
+      "meaning": "手推车"
+    },
+    {
+      "word": "turkey",
+      "meaning": "火鸡"
+    },
+    {
+      "word": "volleyball",
+      "meaning": "排球"
+    }
+  ],
+  "86": [
+    {
+      "word": "exercise",
+      "meaning": "运动/练习"
+    },
+    {
+      "word": "excited",
+      "meaning": "兴奋的"
+    },
+    {
+      "word": "lion",
+      "meaning": "狮子"
+    },
+    {
+      "word": "ninth",
+      "meaning": "第九"
+    },
+    {
+      "word": "pilot",
+      "meaning": "飞行员"
+    },
+    {
+      "word": "sign",
+      "meaning": "指示牌"
+    },
+    {
+      "word": "tiger",
+      "meaning": "老虎"
+    },
+    {
+      "word": "time",
+      "meaning": "次/时间"
+    }
+  ],
+  "87": [
+    {
+      "word": "advice",
+      "meaning": "建议"
+    },
+    {
+      "word": "ice",
+      "meaning": "冰"
+    },
+    {
+      "word": "mice",
+      "meaning": "老鼠"
+    },
+    {
+      "word": "nice",
+      "meaning": "美好的"
+    },
+    {
+      "word": "price",
+      "meaning": "价格"
+    },
+    {
+      "word": "rice",
+      "meaning": "米饭"
+    },
+    {
+      "word": "twice",
+      "meaning": "两次"
+    }
+  ],
+  "88": [
+    {
+      "word": "beside",
+      "meaning": "在...旁边"
+    },
+    {
+      "word": "decide",
+      "meaning": "决定"
+    },
+    {
+      "word": "hide",
+      "meaning": "隐藏"
+    },
+    {
+      "word": "ride",
+      "meaning": "骑车"
+    },
+    {
+      "word": "side",
+      "meaning": "一旁"
+    },
+    {
+      "word": "slide",
+      "meaning": "滑梯"
+    },
+    {
+      "word": "wide",
+      "meaning": "宽的"
+    }
+  ],
+  "89": [
+    {
+      "word": "alike",
+      "meaning": "相似的"
+    },
+    {
+      "word": "bike",
+      "meaning": "自行车"
+    },
+    {
+      "word": "dislike",
+      "meaning": "不喜欢"
+    },
+    {
+      "word": "hike",
+      "meaning": "徒步旅行"
+    },
+    {
+      "word": "like",
+      "meaning": "喜欢/像"
+    },
+    {
+      "word": "strike",
+      "meaning": "击/撞"
+    },
+    {
+      "word": "unlike",
+      "meaning": "不像"
+    }
+  ],
+  "90": [
+    {
+      "word": "bind",
+      "meaning": "捆绑"
+    },
+    {
+      "word": "blind",
+      "meaning": "失明的"
+    },
+    {
+      "word": "find",
+      "meaning": "找到"
+    },
+    {
+      "word": "kind",
+      "meaning": "种类/善良的"
+    },
+    {
+      "word": "kindly",
+      "meaning": "亲切地"
+    },
+    {
+      "word": "mind",
+      "meaning": "头脑"
+    },
+    {
+      "word": "remind",
+      "meaning": "提醒"
+    }
+  ],
+  "91": [
+    {
+      "word": "bright",
+      "meaning": "明亮的"
+    },
+    {
+      "word": "fight",
+      "meaning": "打架"
+    },
+    {
+      "word": "flight",
+      "meaning": "航班"
+    },
+    {
+      "word": "high",
+      "meaning": "高的"
+    },
+    {
+      "word": "light",
+      "meaning": "光/灯"
+    },
+    {
+      "word": "night",
+      "meaning": "晚上"
+    },
+    {
+      "word": "right",
+      "meaning": "正确的"
+    },
+    {
+      "word": "tight",
+      "meaning": "紧的"
+    }
+  ],
+  "92": [
+    {
+      "word": "by",
+      "meaning": "通过"
+    },
+    {
+      "word": "cry",
+      "meaning": "哭"
+    },
+    {
+      "word": "dry",
+      "meaning": "干的"
+    },
+    {
+      "word": "fly",
+      "meaning": "飞"
+    },
+    {
+      "word": "my",
+      "meaning": "我的"
+    },
+    {
+      "word": "myself",
+      "meaning": "我自己"
+    },
+    {
+      "word": "style",
+      "meaning": "方式"
+    },
+    {
+      "word": "try",
+      "meaning": "试图"
+    }
+  ],
+  "93": [
+    {
+      "word": "bird",
+      "meaning": "鸟"
+    },
+    {
+      "word": "dirty",
+      "meaning": "肮脏的"
+    },
+    {
+      "word": "first",
+      "meaning": "第一"
+    },
+    {
+      "word": "girl",
+      "meaning": "女孩"
+    },
+    {
+      "word": "sir",
+      "meaning": "先生"
+    },
+    {
+      "word": "skirt",
+      "meaning": "女裙"
+    },
+    {
+      "word": "thirsty",
+      "meaning": "渴的"
+    },
+    {
+      "word": "thirty",
+      "meaning": "三十"
+    }
+  ],
+  "94": [
+    {
+      "word": "clock",
+      "meaning": "钟表"
+    },
+    {
+      "word": "doll",
+      "meaning": "洋娃娃"
+    },
+    {
+      "word": "forest",
+      "meaning": "森林"
+    },
+    {
+      "word": "god",
+      "meaning": "神/上帝"
+    },
+    {
+      "word": "hot",
+      "meaning": "热的"
+    },
+    {
+      "word": "October",
+      "meaning": "十月"
+    },
+    {
+      "word": "pocket",
+      "meaning": "袋"
+    },
+    {
+      "word": "rocket",
+      "meaning": "火箭"
+    }
+  ],
+  "95": [
+    {
+      "word": "bog",
+      "meaning": "沼泽"
+    },
+    {
+      "word": "dog",
+      "meaning": "狗"
+    },
+    {
+      "word": "fog",
+      "meaning": "雾"
+    },
+    {
+      "word": "frog",
+      "meaning": "青蛙"
+    },
+    {
+      "word": "hog",
+      "meaning": "猪"
+    },
+    {
+      "word": "jog",
+      "meaning": "慢跑"
+    },
+    {
+      "word": "log",
+      "meaning": "原木"
+    },
+    {
+      "word": "tog",
+      "meaning": "衣服"
+    }
+  ],
+  "96": [
+    {
+      "word": "chop",
+      "meaning": "剁/砍"
+    },
+    {
+      "word": "hop",
+      "meaning": "单脚跳"
+    },
+    {
+      "word": "mop",
+      "meaning": "拖把"
+    },
+    {
+      "word": "pop",
+      "meaning": "流行音乐"
+    },
+    {
+      "word": "popcorn",
+      "meaning": "爆米花"
+    },
+    {
+      "word": "shop",
+      "meaning": "商店"
+    },
+    {
+      "word": "stop",
+      "meaning": "停止"
+    },
+    {
+      "word": "top",
+      "meaning": "顶部"
+    }
+  ],
+  "97": [
+    {
+      "word": "cot",
+      "meaning": "幼儿床"
+    },
+    {
+      "word": "dot",
+      "meaning": "小圆点"
+    },
+    {
+      "word": "got",
+      "meaning": "得到"
+    },
+    {
+      "word": "hot",
+      "meaning": "热的"
+    },
+    {
+      "word": "lot",
+      "meaning": "大量"
+    },
+    {
+      "word": "not",
+      "meaning": "不"
+    },
+    {
+      "word": "plot",
+      "meaning": "阴谋"
+    },
+    {
+      "word": "pot",
+      "meaning": "锅"
+    }
+  ],
+  "98": [
+    {
+      "word": "brown",
+      "meaning": "棕色的"
+    },
+    {
+      "word": "cow",
+      "meaning": "奶牛"
+    },
+    {
+      "word": "down",
+      "meaning": "在下方"
+    },
+    {
+      "word": "flower",
+      "meaning": "花"
+    },
+    {
+      "word": "how",
+      "meaning": "怎样"
+    },
+    {
+      "word": "now",
+      "meaning": "现在"
+    },
+    {
+      "word": "owl",
+      "meaning": "猫头鹰"
+    },
+    {
+      "word": "town",
+      "meaning": "城镇"
+    }
+  ],
+  "99": [
+    {
+      "word": "bow",
+      "meaning": "蝴蝶结"
+    },
+    {
+      "word": "blow",
+      "meaning": "刮/吹"
+    },
+    {
+      "word": "borrow",
+      "meaning": "借"
+    },
+    {
+      "word": "bowl",
+      "meaning": "碗"
+    },
+    {
+      "word": "elbow",
+      "meaning": "肘"
+    },
+    {
+      "word": "follow",
+      "meaning": "跟着"
+    },
+    {
+      "word": "grow",
+      "meaning": "成长"
+    },
+    {
+      "word": "low",
+      "meaning": "低的"
+    },
+    {
+      "word": "pillow",
+      "meaning": "枕头"
+    }
+  ],
+  "100": [
+    {
+      "word": "row",
+      "meaning": "一排"
+    },
+    {
+      "word": "show",
+      "meaning": "显示"
+    },
+    {
+      "word": "slow",
+      "meaning": "缓慢/减速"
+    },
+    {
+      "word": "snow",
+      "meaning": "雪"
+    },
+    {
+      "word": "snowy",
+      "meaning": "下雪的"
+    },
+    {
+      "word": "tomorrow",
+      "meaning": "明天"
+    },
+    {
+      "word": "window",
+      "meaning": "窗"
+    },
+    {
+      "word": "yellow",
+      "meaning": "黄色的"
+    }
+  ],
+  "101": [
+    {
+      "word": "born",
+      "meaning": "出生"
+    },
+    {
+      "word": "fork",
+      "meaning": "叉子"
+    },
+    {
+      "word": "forty",
+      "meaning": "四十"
+    },
+    {
+      "word": "horse",
+      "meaning": "马"
+    },
+    {
+      "word": "north",
+      "meaning": "北方"
+    },
+    {
+      "word": "short",
+      "meaning": "短的/矮的"
+    },
+    {
+      "word": "shorts",
+      "meaning": "短裤"
+    },
+    {
+      "word": "storm",
+      "meaning": "暴风雨"
+    }
+  ],
+  "102": [
+    {
+      "word": "word",
+      "meaning": "单词"
+    },
+    {
+      "word": "work",
+      "meaning": "工作"
+    },
+    {
+      "word": "worker",
+      "meaning": "工人"
+    },
+    {
+      "word": "workshop",
+      "meaning": "车间"
+    },
+    {
+      "word": "world",
+      "meaning": "世界"
+    },
+    {
+      "word": "worm",
+      "meaning": "蠕虫"
+    },
+    {
+      "word": "worse",
+      "meaning": "更坏的"
+    },
+    {
+      "word": "worth",
+      "meaning": "值得的"
+    }
+  ],
+  "103": [
+    {
+      "word": "along",
+      "meaning": "沿着"
+    },
+    {
+      "word": "belong",
+      "meaning": "属于"
+    },
+    {
+      "word": "gong",
+      "meaning": "锣"
+    },
+    {
+      "word": "long",
+      "meaning": "长的"
+    },
+    {
+      "word": "prolong",
+      "meaning": "拉长"
+    },
+    {
+      "word": "song",
+      "meaning": "歌"
+    },
+    {
+      "word": "strong",
+      "meaning": "强壮的"
+    },
+    {
+      "word": "wrong",
+      "meaning": "错误的"
+    }
+  ],
+  "104": [
+    {
+      "word": "block",
+      "meaning": "一块"
+    },
+    {
+      "word": "clock",
+      "meaning": "时钟"
+    },
+    {
+      "word": "knock",
+      "meaning": "敲"
+    },
+    {
+      "word": "lock",
+      "meaning": "锁住"
+    },
+    {
+      "word": "locker",
+      "meaning": "寄物柜"
+    },
+    {
+      "word": "rock",
+      "meaning": "岩石"
+    },
+    {
+      "word": "shock",
+      "meaning": "吃惊"
+    },
+    {
+      "word": "sock",
+      "meaning": "短袜"
+    }
+  ],
+  "105": [
+    {
+      "word": "brush",
+      "meaning": "刷子"
+    },
+    {
+      "word": "butter",
+      "meaning": "黄油"
+    },
+    {
+      "word": "cup",
+      "meaning": "杯子"
+    },
+    {
+      "word": "dust",
+      "meaning": "灰尘"
+    },
+    {
+      "word": "luck",
+      "meaning": "运气"
+    },
+    {
+      "word": "summer",
+      "meaning": "夏天"
+    },
+    {
+      "word": "sunny",
+      "meaning": "晴朗的"
+    },
+    {
+      "word": "upset",
+      "meaning": "烦恼"
+    }
+  ],
+  "106": [
+    {
+      "word": "club",
+      "meaning": "俱乐部"
+    },
+    {
+      "word": "cub",
+      "meaning": "幼兽"
+    },
+    {
+      "word": "pub",
+      "meaning": "酒吧"
+    },
+    {
+      "word": "public",
+      "meaning": "公共的"
+    },
+    {
+      "word": "rub",
+      "meaning": "擦"
+    },
+    {
+      "word": "subject",
+      "meaning": "科目"
+    },
+    {
+      "word": "subway",
+      "meaning": "地铁"
+    },
+    {
+      "word": "tub",
+      "meaning": "盆/桶"
+    }
+  ],
+  "107": [
+    {
+      "word": "bump",
+      "meaning": "撞上"
+    },
+    {
+      "word": "drum",
+      "meaning": "鼓"
+    },
+    {
+      "word": "gum",
+      "meaning": "口香糖"
+    },
+    {
+      "word": "jump",
+      "meaning": "跳/跃"
+    },
+    {
+      "word": "mum",
+      "meaning": "妈妈"
+    },
+    {
+      "word": "number",
+      "meaning": "数字"
+    },
+    {
+      "word": "plum",
+      "meaning": "李子"
+    },
+    {
+      "word": "thumb",
+      "meaning": "拇指"
+    }
+  ],
+  "108": [
+    {
+      "word": "fun",
+      "meaning": "乐趣"
+    },
+    {
+      "word": "gun",
+      "meaning": "枪/炮"
+    },
+    {
+      "word": "hunt",
+      "meaning": "搜寻"
+    },
+    {
+      "word": "lunch",
+      "meaning": "午餐"
+    },
+    {
+      "word": "run",
+      "meaning": "跑"
+    },
+    {
+      "word": "sun",
+      "meaning": "太阳"
+    },
+    {
+      "word": "Sunday",
+      "meaning": "星期日"
+    },
+    {
+      "word": "under",
+      "meaning": "在...下面"
+    }
+  ],
+  "109": [
+    {
+      "word": "but",
+      "meaning": "但是"
+    },
+    {
+      "word": "cut",
+      "meaning": "切"
+    },
+    {
+      "word": "cutoff",
+      "meaning": "切掉"
+    },
+    {
+      "word": "gut",
+      "meaning": "肠道"
+    },
+    {
+      "word": "hut",
+      "meaning": "木屋"
+    },
+    {
+      "word": "nut",
+      "meaning": "坚果"
+    },
+    {
+      "word": "peanut",
+      "meaning": "花生"
+    },
+    {
+      "word": "shut",
+      "meaning": "关闭"
+    }
+  ],
+  "110": [
+    {
+      "word": "bug",
+      "meaning": "虫子"
+    },
+    {
+      "word": "hug",
+      "meaning": "拥抱"
+    },
+    {
+      "word": "jug",
+      "meaning": "壶/罐"
+    },
+    {
+      "word": "ladybug",
+      "meaning": "瓢虫"
+    },
+    {
+      "word": "mug",
+      "meaning": "马克杯"
+    },
+    {
+      "word": "plug",
+      "meaning": "插头"
+    },
+    {
+      "word": "rug",
+      "meaning": "垫子"
+    },
+    {
+      "word": "ugly",
+      "meaning": "丑陋的"
+    }
+  ],
+  "111": [
+    {
+      "word": "burn",
+      "meaning": "燃烧"
+    },
+    {
+      "word": "fur",
+      "meaning": "毛皮"
+    },
+    {
+      "word": "hurt",
+      "meaning": "使受伤"
+    },
+    {
+      "word": "nurse",
+      "meaning": "护士"
+    },
+    {
+      "word": "purple",
+      "meaning": "紫色的"
+    },
+    {
+      "word": "purse",
+      "meaning": "钱包"
+    },
+    {
+      "word": "turn",
+      "meaning": "旋转"
+    },
+    {
+      "word": "turtle",
+      "meaning": "海龟"
+    }
+  ],
+  "112": [
+    {
+      "word": "audio",
+      "meaning": "声音的"
+    },
+    {
+      "word": "August",
+      "meaning": "八月"
+    },
+    {
+      "word": "author",
+      "meaning": "作者"
+    },
+    {
+      "word": "autumn",
+      "meaning": "秋天"
+    },
+    {
+      "word": "cause",
+      "meaning": "原因"
+    },
+    {
+      "word": "pause",
+      "meaning": "暂停"
+    },
+    {
+      "word": "sauce",
+      "meaning": "调味汁"
+    },
+    {
+      "word": "taught",
+      "meaning": "教授"
+    }
+  ],
+  "113": [
+    {
+      "word": "deaf",
+      "meaning": "聋的"
+    },
+    {
+      "word": "head",
+      "meaning": "头"
+    },
+    {
+      "word": "healthy",
+      "meaning": "健康的"
+    },
+    {
+      "word": "health",
+      "meaning": "健康"
+    },
+    {
+      "word": "heavy",
+      "meaning": "重的"
+    },
+    {
+      "word": "ready",
+      "meaning": "准备好"
+    },
+    {
+      "word": "sweater",
+      "meaning": "毛线衫"
+    },
+    {
+      "word": "weather",
+      "meaning": "天气"
+    }
+  ],
+  "114": [
+    {
+      "word": "beat",
+      "meaning": "打败"
+    },
+    {
+      "word": "cheap",
+      "meaning": "便宜的"
+    },
+    {
+      "word": "cheat",
+      "meaning": "欺骗"
+    },
+    {
+      "word": "each",
+      "meaning": "每个"
+    },
+    {
+      "word": "east",
+      "meaning": "东方"
+    },
+    {
+      "word": "easy",
+      "meaning": "容易的"
+    },
+    {
+      "word": "eat",
+      "meaning": "吃"
+    },
+    {
+      "word": "heat",
+      "meaning": "热能"
+    },
+    {
+      "word": "leaf",
+      "meaning": "叶子"
+    }
+  ],
+  "115": [
+    {
+      "word": "leave",
+      "meaning": "离开"
+    },
+    {
+      "word": "meal",
+      "meaning": "一餐"
+    },
+    {
+      "word": "meat",
+      "meaning": "肉类"
+    },
+    {
+      "word": "reach",
+      "meaning": "到达"
+    },
+    {
+      "word": "read",
+      "meaning": "阅读"
+    },
+    {
+      "word": "sea",
+      "meaning": "海洋"
+    },
+    {
+      "word": "season",
+      "meaning": "季节"
+    },
+    {
+      "word": "tea",
+      "meaning": "茶"
+    }
+  ],
+  "116": [
+    {
+      "word": "bee",
+      "meaning": "蜜蜂"
+    },
+    {
+      "word": "beef",
+      "meaning": "牛肉"
+    },
+    {
+      "word": "deep",
+      "meaning": "深的"
+    },
+    {
+      "word": "feed",
+      "meaning": "喂养"
+    },
+    {
+      "word": "feel",
+      "meaning": "感觉"
+    },
+    {
+      "word": "feet",
+      "meaning": "脚"
+    },
+    {
+      "word": "geese",
+      "meaning": "鹅"
+    },
+    {
+      "word": "greet",
+      "meaning": "欢迎"
+    },
+    {
+      "word": "jeep",
+      "meaning": "吉普车"
+    }
+  ],
+  "117": [
+    {
+      "word": "keep",
+      "meaning": "保持"
+    },
+    {
+      "word": "meet",
+      "meaning": "会面"
+    },
+    {
+      "word": "need",
+      "meaning": "需要"
+    },
+    {
+      "word": "nineteen",
+      "meaning": "十九"
+    },
+    {
+      "word": "see",
+      "meaning": "看见"
+    },
+    {
+      "word": "seed",
+      "meaning": "种子"
+    },
+    {
+      "word": "teeth",
+      "meaning": "牙齿"
+    },
+    {
+      "word": "week",
+      "meaning": "星期"
+    }
+  ],
+  "118": [
+    {
+      "word": "achieve",
+      "meaning": "取得"
+    },
+    {
+      "word": "believe",
+      "meaning": "相信"
+    },
+    {
+      "word": "brief",
+      "meaning": "简短的"
+    },
+    {
+      "word": "field",
+      "meaning": "田地"
+    },
+    {
+      "word": "niece",
+      "meaning": "侄女"
+    },
+    {
+      "word": "piece",
+      "meaning": "块"
+    },
+    {
+      "word": "relief",
+      "meaning": "救济品"
+    },
+    {
+      "word": "thief",
+      "meaning": "贼"
+    }
+  ],
+  "119": [
+    {
+      "word": "die",
+      "meaning": "死亡"
+    },
+    {
+      "word": "lie",
+      "meaning": "撒谎/平躺"
+    },
+    {
+      "word": "magpie",
+      "meaning": "喜鹊"
+    },
+    {
+      "word": "pie",
+      "meaning": "馅饼"
+    },
+    {
+      "word": "tie",
+      "meaning": "领带/系"
+    },
+    {
+      "word": "untie",
+      "meaning": "解开"
+    }
+  ],
+  "120": [
+    {
+      "word": "boat",
+      "meaning": "小船"
+    },
+    {
+      "word": "coat",
+      "meaning": "外套"
+    },
+    {
+      "word": "goal",
+      "meaning": "目标"
+    },
+    {
+      "word": "goat",
+      "meaning": "山羊"
+    },
+    {
+      "word": "road",
+      "meaning": "路"
+    },
+    {
+      "word": "soap",
+      "meaning": "肥皂"
+    },
+    {
+      "word": "toad",
+      "meaning": "癞蛤蟆"
+    },
+    {
+      "word": "toast",
+      "meaning": "干杯/吐司"
+    }
+  ],
+  "121": [
+    {
+      "word": "country",
+      "meaning": "国家/乡村"
+    },
+    {
+      "word": "couple",
+      "meaning": "两个"
+    },
+    {
+      "word": "cousin",
+      "meaning": "堂(表)兄弟"
+    },
+    {
+      "word": "double",
+      "meaning": "两倍的"
+    },
+    {
+      "word": "enough",
+      "meaning": "足够的"
+    },
+    {
+      "word": "touch",
+      "meaning": "触摸"
+    },
+    {
+      "word": "tough",
+      "meaning": "艰难的"
+    },
+    {
+      "word": "trouble",
+      "meaning": "麻烦"
+    }
+  ],
+  "122": [
+    {
+      "word": "about",
+      "meaning": "大约"
+    },
+    {
+      "word": "around",
+      "meaning": "围绕"
+    },
+    {
+      "word": "count",
+      "meaning": "数数"
+    },
+    {
+      "word": "found",
+      "meaning": "找到"
+    },
+    {
+      "word": "ground",
+      "meaning": "地面"
+    },
+    {
+      "word": "house",
+      "meaning": "房子"
+    },
+    {
+      "word": "loud",
+      "meaning": "大声的"
+    },
+    {
+      "word": "mount",
+      "meaning": "山/泰山"
+    },
+    {
+      "word": "mouse",
+      "meaning": "老鼠"
+    }
+  ],
+  "123": [
+    {
+      "word": "mouth",
+      "meaning": "嘴"
+    },
+    {
+      "word": "out",
+      "meaning": "向外/出去"
+    },
+    {
+      "word": "pound",
+      "meaning": "英镑"
+    },
+    {
+      "word": "proud",
+      "meaning": "自豪的"
+    },
+    {
+      "word": "round",
+      "meaning": "圆形的"
+    },
+    {
+      "word": "shout",
+      "meaning": "喊叫"
+    },
+    {
+      "word": "sound",
+      "meaning": "听起来"
+    },
+    {
+      "word": "south",
+      "meaning": "南方"
+    }
+  ],
+  "124": [
+    {
+      "word": "boot",
+      "meaning": "靴子"
+    },
+    {
+      "word": "cool",
+      "meaning": "凉的"
+    },
+    {
+      "word": "food",
+      "meaning": "食物"
+    },
+    {
+      "word": "fool",
+      "meaning": "傻瓜"
+    },
+    {
+      "word": "goose",
+      "meaning": "鹅"
+    },
+    {
+      "word": "mood",
+      "meaning": "心情"
+    },
+    {
+      "word": "moon",
+      "meaning": "月亮"
+    },
+    {
+      "word": "noodle",
+      "meaning": "面条"
+    },
+    {
+      "word": "noon",
+      "meaning": "中午"
+    }
+  ],
+  "125": [
+    {
+      "word": "pool",
+      "meaning": "池塘"
+    },
+    {
+      "word": "room",
+      "meaning": "房间"
+    },
+    {
+      "word": "rooster",
+      "meaning": "公鸡"
+    },
+    {
+      "word": "school",
+      "meaning": "学校"
+    },
+    {
+      "word": "soon",
+      "meaning": "很快"
+    },
+    {
+      "word": "too",
+      "meaning": "也/太"
+    },
+    {
+      "word": "tool",
+      "meaning": "工具"
+    },
+    {
+      "word": "tooth",
+      "meaning": "牙"
+    }
+  ],
+  "126": [
+    {
+      "word": "book",
+      "meaning": "书/预定"
+    },
+    {
+      "word": "brook",
+      "meaning": "小溪"
+    },
+    {
+      "word": "cook",
+      "meaning": "厨师/烹饪"
+    },
+    {
+      "word": "cookie",
+      "meaning": "曲奇饼"
+    },
+    {
+      "word": "foot",
+      "meaning": "脚"
+    },
+    {
+      "word": "goodbye",
+      "meaning": "再见/告别"
+    },
+    {
+      "word": "hoodie",
+      "meaning": "连帽衫"
+    },
+    {
+      "word": "hook",
+      "meaning": "挂钩"
+    },
+    {
+      "word": "look",
+      "meaning": "看"
+    }
+  ],
+  "127": [
+    {
+      "word": "shook",
+      "meaning": "摇动"
+    },
+    {
+      "word": "stood",
+      "meaning": "站立"
+    },
+    {
+      "word": "took",
+      "meaning": "拿"
+    },
+    {
+      "word": "wood",
+      "meaning": "木材"
+    },
+    {
+      "word": "wooden",
+      "meaning": "木制的"
+    },
+    {
+      "word": "wool",
+      "meaning": "羊毛"
+    },
+    {
+      "word": "woolen",
+      "meaning": "羊毛的"
+    }
+  ],
+  "128": [
+    {
+      "word": "become",
+      "meaning": "变成"
+    },
+    {
+      "word": "come",
+      "meaning": "来"
+    },
+    {
+      "word": "company",
+      "meaning": "公司"
+    },
+    {
+      "word": "some",
+      "meaning": "一些"
+    },
+    {
+      "word": "son",
+      "meaning": "儿子"
+    },
+    {
+      "word": "worried",
+      "meaning": "担心的"
+    },
+    {
+      "word": "blood",
+      "meaning": "血"
+    },
+    {
+      "word": "flood",
+      "meaning": "洪水"
+    }
+  ],
+  "129": [
+    {
+      "word": "boil",
+      "meaning": "沸腾"
+    },
+    {
+      "word": "coin",
+      "meaning": "硬币"
+    },
+    {
+      "word": "join",
+      "meaning": "参加"
+    },
+    {
+      "word": "noise",
+      "meaning": "噪音"
+    },
+    {
+      "word": "oil",
+      "meaning": "油/石油"
+    },
+    {
+      "word": "point",
+      "meaning": "观点/指出"
+    },
+    {
+      "word": "soil",
+      "meaning": "土壤"
+    },
+    {
+      "word": "toilet",
+      "meaning": "厕所"
+    }
+  ],
+  "130": [
+    {
+      "word": "annoy",
+      "meaning": "使烦恼"
+    },
+    {
+      "word": "boy",
+      "meaning": "男孩"
+    },
+    {
+      "word": "employ",
+      "meaning": "雇用"
+    },
+    {
+      "word": "enjoy",
+      "meaning": "享受"
+    },
+    {
+      "word": "joy",
+      "meaning": "高兴"
+    },
+    {
+      "word": "oyster",
+      "meaning": "牡蛎"
+    },
+    {
+      "word": "soy",
+      "meaning": "大豆"
+    },
+    {
+      "word": "toy",
+      "meaning": "玩具"
+    }
+  ],
+  "131": [
+    {
+      "word": "age",
+      "meaning": "年龄"
+    },
+    {
+      "word": "brave",
+      "meaning": "勇敢的"
+    },
+    {
+      "word": "game",
+      "meaning": "游戏"
+    },
+    {
+      "word": "grape",
+      "meaning": "葡萄"
+    },
+    {
+      "word": "hate",
+      "meaning": "厌恶"
+    },
+    {
+      "word": "stage",
+      "meaning": "舞台"
+    },
+    {
+      "word": "tape",
+      "meaning": "磁带"
+    },
+    {
+      "word": "wake",
+      "meaning": "醒来"
+    }
+  ],
+  "132": [
+    {
+      "word": "be",
+      "meaning": "是"
+    },
+    {
+      "word": "he",
+      "meaning": "他"
+    },
+    {
+      "word": "me",
+      "meaning": "我"
+    },
+    {
+      "word": "she",
+      "meaning": "她"
+    },
+    {
+      "word": "we",
+      "meaning": "我们"
+    },
+    {
+      "word": "Chinese",
+      "meaning": "中国人"
+    },
+    {
+      "word": "theme",
+      "meaning": "主题"
+    },
+    {
+      "word": "these",
+      "meaning": "这些"
+    }
+  ],
+  "133": [
+    {
+      "word": "dive",
+      "meaning": "潜水"
+    },
+    {
+      "word": "drive",
+      "meaning": "驾驶"
+    },
+    {
+      "word": "fine",
+      "meaning": "美好的"
+    },
+    {
+      "word": "five",
+      "meaning": "五"
+    },
+    {
+      "word": "kite",
+      "meaning": "风筝"
+    },
+    {
+      "word": "life",
+      "meaning": "生命/生活"
+    },
+    {
+      "word": "line",
+      "meaning": "线"
+    },
+    {
+      "word": "mine",
+      "meaning": "我的"
+    },
+    {
+      "word": "nine",
+      "meaning": "九"
+    }
+  ],
+  "134": [
+    {
+      "word": "ninety",
+      "meaning": "九十"
+    },
+    {
+      "word": "pine",
+      "meaning": "松树"
+    },
+    {
+      "word": "ripe",
+      "meaning": "成熟的"
+    },
+    {
+      "word": "wife",
+      "meaning": "妻子"
+    },
+    {
+      "word": "wine",
+      "meaning": "葡萄酒/米酒"
+    },
+    {
+      "word": "while",
+      "meaning": "当...时候"
+    },
+    {
+      "word": "white",
+      "meaning": "白色"
+    }
+  ],
+  "135": [
+    {
+      "word": "alone",
+      "meaning": "独自"
+    },
+    {
+      "word": "bone",
+      "meaning": "骨头"
+    },
+    {
+      "word": "broke",
+      "meaning": "打碎"
+    },
+    {
+      "word": "coke",
+      "meaning": "可乐"
+    },
+    {
+      "word": "hole",
+      "meaning": "洞"
+    },
+    {
+      "word": "home",
+      "meaning": "家"
+    },
+    {
+      "word": "hope",
+      "meaning": "希望"
+    },
+    {
+      "word": "joke",
+      "meaning": "笑话"
+    },
+    {
+      "word": "lonely",
+      "meaning": "孤单的"
+    }
+  ],
+  "136": [
+    {
+      "word": "nose",
+      "meaning": "鼻子"
+    },
+    {
+      "word": "note",
+      "meaning": "笔记"
+    },
+    {
+      "word": "phone",
+      "meaning": "电话"
+    },
+    {
+      "word": "rode",
+      "meaning": "骑"
+    },
+    {
+      "word": "rope",
+      "meaning": "绳索"
+    },
+    {
+      "word": "rose",
+      "meaning": "玫瑰"
+    },
+    {
+      "word": "those",
+      "meaning": "那些"
+    }
+  ],
+  "137": [
+    {
+      "word": "cube",
+      "meaning": "立方体"
+    },
+    {
+      "word": "cute",
+      "meaning": "可爱的"
+    },
+    {
+      "word": "excuse",
+      "meaning": "借口/原谅"
+    },
+    {
+      "word": "huge",
+      "meaning": "巨大的"
+    },
+    {
+      "word": "tube",
+      "meaning": "管子"
+    },
+    {
+      "word": "tune",
+      "meaning": "曲调"
+    },
+    {
+      "word": "use",
+      "meaning": "使用"
+    },
+    {
+      "word": "useful",
+      "meaning": "有用的"
+    }
+  ],
+  "138": [
+    {
+      "word": "liquid",
+      "meaning": "液体"
+    },
+    {
+      "word": "quality",
+      "meaning": "质量"
+    },
+    {
+      "word": "quarter",
+      "meaning": "四分之一"
+    },
+    {
+      "word": "queen",
+      "meaning": "女王"
+    },
+    {
+      "word": "quit",
+      "meaning": "停止"
+    },
+    {
+      "word": "request",
+      "meaning": "要求"
+    },
+    {
+      "word": "square",
+      "meaning": "正方形的"
+    },
+    {
+      "word": "squirrel",
+      "meaning": "松鼠"
+    }
+  ],
+  "139": [
+    {
+      "word": "action",
+      "meaning": "行动"
+    },
+    {
+      "word": "attention",
+      "meaning": "注意"
+    },
+    {
+      "word": "invention",
+      "meaning": "发明"
+    },
+    {
+      "word": "nation",
+      "meaning": "国家"
+    },
+    {
+      "word": "pollution",
+      "meaning": "污染"
+    },
+    {
+      "word": "relation",
+      "meaning": "关系"
+    },
+    {
+      "word": "station",
+      "meaning": "车站"
+    },
+    {
+      "word": "vacation",
+      "meaning": "假期"
+    }
+  ],
+  "140": [
+    {
+      "word": "capture",
+      "meaning": "捕获"
+    },
+    {
+      "word": "culture",
+      "meaning": "文化"
+    },
+    {
+      "word": "feature",
+      "meaning": "特点"
+    },
+    {
+      "word": "furniture",
+      "meaning": "家具"
+    },
+    {
+      "word": "future",
+      "meaning": "未来"
+    },
+    {
+      "word": "lecture",
+      "meaning": "讲座"
+    },
+    {
+      "word": "nature",
+      "meaning": "大自然"
+    },
+    {
+      "word": "picture",
+      "meaning": "图片"
+    }
+  ],
+  "141": [
+    {
+      "word": "confusion",
+      "meaning": "困惑"
+    },
+    {
+      "word": "decision",
+      "meaning": "决定"
+    },
+    {
+      "word": "division",
+      "meaning": "除法"
+    },
+    {
+      "word": "explosion",
+      "meaning": "爆炸"
+    },
+    {
+      "word": "occasion",
+      "meaning": "场合"
+    },
+    {
+      "word": "revision",
+      "meaning": "复习"
+    },
+    {
+      "word": "television",
+      "meaning": "电视"
+    },
+    {
+      "word": "vision",
+      "meaning": "视力"
+    }
+  ],
+  "142": [
+    {
+      "word": "black",
+      "meaning": "黑色的"
+    },
+    {
+      "word": "blanket",
+      "meaning": "毯子"
+    },
+    {
+      "word": "bless",
+      "meaning": "祝福"
+    },
+    {
+      "word": "blocks",
+      "meaning": "积木"
+    },
+    {
+      "word": "blood",
+      "meaning": "血"
+    },
+    {
+      "word": "blouse",
+      "meaning": "衬衫"
+    },
+    {
+      "word": "blow",
+      "meaning": "刮/吹"
+    },
+    {
+      "word": "blue",
+      "meaning": "蓝色的"
+    }
+  ],
+  "143": [
+    {
+      "word": "class",
+      "meaning": "课程"
+    },
+    {
+      "word": "clean",
+      "meaning": "清洁/干净的"
+    },
+    {
+      "word": "cleaner",
+      "meaning": "清洁工"
+    },
+    {
+      "word": "clever",
+      "meaning": "聪明的"
+    },
+    {
+      "word": "close",
+      "meaning": "关闭"
+    },
+    {
+      "word": "cloud",
+      "meaning": "云"
+    },
+    {
+      "word": "cloudy",
+      "meaning": "多云的"
+    },
+    {
+      "word": "clown",
+      "meaning": "小丑"
+    }
+  ],
+  "144": [
+    {
+      "word": "flag",
+      "meaning": "旗帜"
+    },
+    {
+      "word": "flash",
+      "meaning": "闪光"
+    },
+    {
+      "word": "flat",
+      "meaning": "公寓/平的"
+    },
+    {
+      "word": "flood",
+      "meaning": "洪水"
+    },
+    {
+      "word": "floor",
+      "meaning": "地板"
+    },
+    {
+      "word": "flower",
+      "meaning": "花"
+    },
+    {
+      "word": "flu",
+      "meaning": "流感"
+    },
+    {
+      "word": "fly",
+      "meaning": "飞"
+    }
+  ],
+  "145": [
+    {
+      "word": "glad",
+      "meaning": "高兴的"
+    },
+    {
+      "word": "glare",
+      "meaning": "怒视"
+    },
+    {
+      "word": "glass",
+      "meaning": "玻璃杯"
+    },
+    {
+      "word": "glasses",
+      "meaning": "眼镜"
+    },
+    {
+      "word": "globe",
+      "meaning": "地球"
+    },
+    {
+      "word": "glory",
+      "meaning": "荣誉"
+    },
+    {
+      "word": "glove",
+      "meaning": "手套"
+    },
+    {
+      "word": "glue",
+      "meaning": "胶水"
+    }
+  ],
+  "146": [
+    {
+      "word": "plan",
+      "meaning": "计划"
+    },
+    {
+      "word": "plane",
+      "meaning": "飞机"
+    },
+    {
+      "word": "plant",
+      "meaning": "植物/种植"
+    },
+    {
+      "word": "plate",
+      "meaning": "盘/碟"
+    },
+    {
+      "word": "play",
+      "meaning": "玩耍"
+    },
+    {
+      "word": "please",
+      "meaning": "请"
+    },
+    {
+      "word": "pleasure",
+      "meaning": "快乐"
+    },
+    {
+      "word": "plum",
+      "meaning": "李子"
+    }
+  ],
+  "147": [
+    {
+      "word": "asleep",
+      "meaning": "入睡"
+    },
+    {
+      "word": "sleep",
+      "meaning": "睡觉"
+    },
+    {
+      "word": "sleeve",
+      "meaning": "袖子"
+    },
+    {
+      "word": "slide",
+      "meaning": "滑梯"
+    },
+    {
+      "word": "slim",
+      "meaning": "苗条的"
+    },
+    {
+      "word": "slip",
+      "meaning": "滑倒"
+    },
+    {
+      "word": "slipper",
+      "meaning": "拖鞋"
+    },
+    {
+      "word": "slowly",
+      "meaning": "缓慢地"
+    }
+  ],
+  "148": [
+    {
+      "word": "bread",
+      "meaning": "面包"
+    },
+    {
+      "word": "break",
+      "meaning": "打破"
+    },
+    {
+      "word": "breath",
+      "meaning": "呼吸"
+    },
+    {
+      "word": "bring",
+      "meaning": "带来"
+    },
+    {
+      "word": "broccoli",
+      "meaning": "西蓝花"
+    },
+    {
+      "word": "broom",
+      "meaning": "扫帚"
+    },
+    {
+      "word": "brother",
+      "meaning": "兄弟"
+    },
+    {
+      "word": "brush",
+      "meaning": "刷/刷子"
+    }
+  ],
+  "149": [
+    {
+      "word": "crab",
+      "meaning": "螃蟹"
+    },
+    {
+      "word": "crayon",
+      "meaning": "蜡笔"
+    },
+    {
+      "word": "cream",
+      "meaning": "奶油"
+    },
+    {
+      "word": "create",
+      "meaning": "创造"
+    },
+    {
+      "word": "cross",
+      "meaning": "穿越"
+    },
+    {
+      "word": "crow",
+      "meaning": "乌鸦"
+    },
+    {
+      "word": "crowd",
+      "meaning": "人群"
+    },
+    {
+      "word": "crown",
+      "meaning": "王冠"
+    }
+  ],
+  "150": [
+    {
+      "word": "dragon",
+      "meaning": "龙"
+    },
+    {
+      "word": "drain",
+      "meaning": "下水道"
+    },
+    {
+      "word": "draw",
+      "meaning": "绘画"
+    },
+    {
+      "word": "dream",
+      "meaning": "梦想"
+    },
+    {
+      "word": "dress",
+      "meaning": "连衣裙"
+    },
+    {
+      "word": "driver",
+      "meaning": "司机"
+    },
+    {
+      "word": "drop",
+      "meaning": "滴/掉落"
+    },
+    {
+      "word": "hundred",
+      "meaning": "一百"
+    }
+  ],
+  "151": [
+    {
+      "word": "free",
+      "meaning": "自由的"
+    },
+    {
+      "word": "fresh",
+      "meaning": "新鲜的"
+    },
+    {
+      "word": "Friday",
+      "meaning": "星期五"
+    },
+    {
+      "word": "fridge",
+      "meaning": "冰箱"
+    },
+    {
+      "word": "friend",
+      "meaning": "朋友"
+    },
+    {
+      "word": "from",
+      "meaning": "来自"
+    },
+    {
+      "word": "front",
+      "meaning": "前面"
+    },
+    {
+      "word": "fruit",
+      "meaning": "水果"
+    }
+  ],
+  "152": [
+    {
+      "word": "grade",
+      "meaning": "等级"
+    },
+    {
+      "word": "grain",
+      "meaning": "谷物"
+    },
+    {
+      "word": "grass",
+      "meaning": "草/青草"
+    },
+    {
+      "word": "grey",
+      "meaning": "灰色的"
+    },
+    {
+      "word": "great",
+      "meaning": "伟大的"
+    },
+    {
+      "word": "green",
+      "meaning": "绿色的"
+    },
+    {
+      "word": "grow",
+      "meaning": "长大"
+    },
+    {
+      "word": "group",
+      "meaning": "组/群"
+    }
+  ],
+  "153": [
+    {
+      "word": "praise",
+      "meaning": "赞美/表扬"
+    },
+    {
+      "word": "present",
+      "meaning": "礼物"
+    },
+    {
+      "word": "pretty",
+      "meaning": "漂亮的"
+    },
+    {
+      "word": "prince",
+      "meaning": "王子"
+    },
+    {
+      "word": "princess",
+      "meaning": "公主"
+    },
+    {
+      "word": "prize",
+      "meaning": "奖品"
+    },
+    {
+      "word": "problem",
+      "meaning": "问题"
+    },
+    {
+      "word": "protect",
+      "meaning": "保护"
+    }
+  ],
+  "154": [
+    {
+      "word": "traffic",
+      "meaning": "交通"
+    },
+    {
+      "word": "trash",
+      "meaning": "垃圾"
+    },
+    {
+      "word": "travel",
+      "meaning": "旅行"
+    },
+    {
+      "word": "treat",
+      "meaning": "对待/招待"
+    },
+    {
+      "word": "tree",
+      "meaning": "树"
+    },
+    {
+      "word": "triangle",
+      "meaning": "三角形"
+    },
+    {
+      "word": "trouble",
+      "meaning": "困难"
+    },
+    {
+      "word": "trousers",
+      "meaning": "裤子"
+    }
+  ],
+  "155": [
+    {
+      "word": "small",
+      "meaning": "小的"
+    },
+    {
+      "word": "smart",
+      "meaning": "聪明的"
+    },
+    {
+      "word": "smash",
+      "meaning": "打碎"
+    },
+    {
+      "word": "smell",
+      "meaning": "闻"
+    },
+    {
+      "word": "smile",
+      "meaning": "微笑"
+    },
+    {
+      "word": "smog",
+      "meaning": "烟雾"
+    },
+    {
+      "word": "smoke",
+      "meaning": "吸烟"
+    },
+    {
+      "word": "smooth",
+      "meaning": "光滑的"
+    }
+  ],
+  "156": [
+    {
+      "word": "snack",
+      "meaning": "零食"
+    },
+    {
+      "word": "snail",
+      "meaning": "蜗牛"
+    },
+    {
+      "word": "snake",
+      "meaning": "蛇"
+    },
+    {
+      "word": "sneer",
+      "meaning": "嘲笑"
+    },
+    {
+      "word": "sneeze",
+      "meaning": "打喷嚏"
+    },
+    {
+      "word": "snooze",
+      "meaning": "小睡"
+    },
+    {
+      "word": "snow",
+      "meaning": "雪"
+    },
+    {
+      "word": "snowy",
+      "meaning": "下雪的"
+    }
+  ],
+  "157": [
+    {
+      "word": "speak",
+      "meaning": "谈话/说"
+    },
+    {
+      "word": "speed",
+      "meaning": "速度"
+    },
+    {
+      "word": "spell",
+      "meaning": "拼写"
+    },
+    {
+      "word": "spend",
+      "meaning": "花费"
+    },
+    {
+      "word": "spoon",
+      "meaning": "勺子"
+    },
+    {
+      "word": "spot",
+      "meaning": "点"
+    },
+    {
+      "word": "sport",
+      "meaning": "运动"
+    },
+    {
+      "word": "spring",
+      "meaning": "春天"
+    }
+  ],
+  "158": [
+    {
+      "word": "step",
+      "meaning": "脚步/步"
+    },
+    {
+      "word": "stick",
+      "meaning": "棍"
+    },
+    {
+      "word": "stock",
+      "meaning": "存货"
+    },
+    {
+      "word": "stone",
+      "meaning": "石头"
+    },
+    {
+      "word": "store",
+      "meaning": "商店"
+    },
+    {
+      "word": "story",
+      "meaning": "故事"
+    },
+    {
+      "word": "student",
+      "meaning": "学生"
+    },
+    {
+      "word": "study",
+      "meaning": "学习/书房"
+    }
+  ],
+  "159": [
+    {
+      "word": "fast",
+      "meaning": "快的"
+    },
+    {
+      "word": "frost",
+      "meaning": "霜"
+    },
+    {
+      "word": "host",
+      "meaning": "主持人"
+    },
+    {
+      "word": "list",
+      "meaning": "清单"
+    },
+    {
+      "word": "lost",
+      "meaning": "丢失"
+    },
+    {
+      "word": "must",
+      "meaning": "必须"
+    },
+    {
+      "word": "most",
+      "meaning": "最/大多数"
+    },
+    {
+      "word": "post",
+      "meaning": "邮政/邮寄"
+    }
+  ],
+  "160": [
+    {
+      "word": "skate",
+      "meaning": "滑冰"
+    },
+    {
+      "word": "ski",
+      "meaning": "滑雪"
+    },
+    {
+      "word": "skill",
+      "meaning": "技巧"
+    },
+    {
+      "word": "skin",
+      "meaning": "皮肤"
+    },
+    {
+      "word": "skip",
+      "meaning": "跳过"
+    },
+    {
+      "word": "skirt",
+      "meaning": "女裙"
+    },
+    {
+      "word": "skunk",
+      "meaning": "臭鼬"
+    },
+    {
+      "word": "sky",
+      "meaning": "天空"
+    }
+  ],
+  "161": [
+    {
+      "word": "scale",
+      "meaning": "天平盘"
+    },
+    {
+      "word": "scan",
+      "meaning": "细看/扫描"
+    },
+    {
+      "word": "scared",
+      "meaning": "害怕的"
+    },
+    {
+      "word": "scar",
+      "meaning": "伤疤"
+    },
+    {
+      "word": "scarf",
+      "meaning": "围巾"
+    },
+    {
+      "word": "scooter",
+      "meaning": "滑板车"
+    },
+    {
+      "word": "scope",
+      "meaning": "范围"
+    },
+    {
+      "word": "score",
+      "meaning": "分数"
+    }
+  ],
+  "162": [
+    {
+      "word": "swallow",
+      "meaning": "燕子"
+    },
+    {
+      "word": "swam",
+      "meaning": "游泳"
+    },
+    {
+      "word": "swan",
+      "meaning": "天鹅"
+    },
+    {
+      "word": "sweat",
+      "meaning": "流汗"
+    },
+    {
+      "word": "sweep",
+      "meaning": "打扫"
+    },
+    {
+      "word": "sweet",
+      "meaning": "甜的"
+    },
+    {
+      "word": "swim",
+      "meaning": "游泳"
+    },
+    {
+      "word": "swing",
+      "meaning": "秋千/摆动"
+    }
+  ],
+  "163": [
+    {
+      "word": "act",
+      "meaning": "行动"
+    },
+    {
+      "word": "correct",
+      "meaning": "正确的"
+    },
+    {
+      "word": "direct",
+      "meaning": "直接的"
+    },
+    {
+      "word": "fact",
+      "meaning": "事实"
+    },
+    {
+      "word": "insect",
+      "meaning": "昆虫"
+    },
+    {
+      "word": "object",
+      "meaning": "反对"
+    },
+    {
+      "word": "protect",
+      "meaning": "保护"
+    },
+    {
+      "word": "subject",
+      "meaning": "学科"
+    }
+  ],
+  "164": [
+    {
+      "word": "craft",
+      "meaning": "工艺"
+    },
+    {
+      "word": "drift",
+      "meaning": "漂流"
+    },
+    {
+      "word": "gift",
+      "meaning": "礼物"
+    },
+    {
+      "word": "left",
+      "meaning": "左边的"
+    },
+    {
+      "word": "lift",
+      "meaning": "提起/电梯"
+    },
+    {
+      "word": "raft",
+      "meaning": "木筏"
+    },
+    {
+      "word": "shift",
+      "meaning": "转换"
+    },
+    {
+      "word": "soft",
+      "meaning": "柔软的"
+    }
+  ],
+  "165": [
+    {
+      "word": "adult",
+      "meaning": "成年人"
+    },
+    {
+      "word": "belt",
+      "meaning": "腰带"
+    },
+    {
+      "word": "fault",
+      "meaning": "错误"
+    },
+    {
+      "word": "felt",
+      "meaning": "觉得"
+    },
+    {
+      "word": "melt",
+      "meaning": "融化"
+    },
+    {
+      "word": "result",
+      "meaning": "结果"
+    },
+    {
+      "word": "salt",
+      "meaning": "盐"
+    },
+    {
+      "word": "salty",
+      "meaning": "咸的"
+    }
+  ],
+  "166": [
+    {
+      "word": "behind",
+      "meaning": "在后面"
+    },
+    {
+      "word": "fond",
+      "meaning": "喜爱的"
+    },
+    {
+      "word": "friendly",
+      "meaning": "友善的"
+    },
+    {
+      "word": "kind",
+      "meaning": "种类/善良的"
+    },
+    {
+      "word": "land",
+      "meaning": "陆地"
+    },
+    {
+      "word": "mend",
+      "meaning": "修补"
+    },
+    {
+      "word": "second",
+      "meaning": "第二"
+    },
+    {
+      "word": "wind",
+      "meaning": "风"
+    }
+  ],
+  "167": [
+    {
+      "word": "evening",
+      "meaning": "晚上"
+    },
+    {
+      "word": "fishing",
+      "meaning": "钓鱼"
+    },
+    {
+      "word": "hang",
+      "meaning": "悬挂"
+    },
+    {
+      "word": "king",
+      "meaning": "国王"
+    },
+    {
+      "word": "morning",
+      "meaning": "早晨"
+    },
+    {
+      "word": "nothing",
+      "meaning": "什么都没有"
+    },
+    {
+      "word": "sing",
+      "meaning": "唱歌"
+    },
+    {
+      "word": "singer",
+      "meaning": "歌手"
+    }
+  ],
+  "168": [
+    {
+      "word": "angry",
+      "meaning": "生气的"
+    },
+    {
+      "word": "England",
+      "meaning": "英格兰"
+    },
+    {
+      "word": "English",
+      "meaning": "英语"
+    },
+    {
+      "word": "finger",
+      "meaning": "手指"
+    },
+    {
+      "word": "hunger",
+      "meaning": "渴望/挨饿"
+    },
+    {
+      "word": "hungry",
+      "meaning": "饥饿的"
+    },
+    {
+      "word": "longer",
+      "meaning": "更长的"
+    },
+    {
+      "word": "single",
+      "meaning": "单人的"
+    }
+  ],
+  "169": [
+    {
+      "word": "aunt",
+      "meaning": "阿姨"
+    },
+    {
+      "word": "count",
+      "meaning": "计数"
+    },
+    {
+      "word": "different",
+      "meaning": "不同的"
+    },
+    {
+      "word": "front",
+      "meaning": "前面"
+    },
+    {
+      "word": "moment",
+      "meaning": "片刻"
+    },
+    {
+      "word": "parent",
+      "meaning": "父亲/母亲"
+    },
+    {
+      "word": "peasant",
+      "meaning": "农民"
+    },
+    {
+      "word": "present",
+      "meaning": "礼物"
+    }
+  ],
+  "170": [
+    {
+      "word": "bank",
+      "meaning": "银行"
+    },
+    {
+      "word": "drink",
+      "meaning": "喝/饮料"
+    },
+    {
+      "word": "pink",
+      "meaning": "粉红色的"
+    },
+    {
+      "word": "sink",
+      "meaning": "下沉"
+    },
+    {
+      "word": "tank",
+      "meaning": "坦克"
+    },
+    {
+      "word": "thank",
+      "meaning": "谢谢"
+    },
+    {
+      "word": "think",
+      "meaning": "认为"
+    },
+    {
+      "word": "trunk",
+      "meaning": "象鼻"
+    }
+  ],
+  "171": [
+    {
+      "word": "bomb",
+      "meaning": "炸弹"
+    },
+    {
+      "word": "climb",
+      "meaning": "攀登"
+    },
+    {
+      "word": "comb",
+      "meaning": "梳子"
+    },
+    {
+      "word": "dumb",
+      "meaning": "哑的"
+    },
+    {
+      "word": "lamb",
+      "meaning": "羔羊"
+    },
+    {
+      "word": "limb",
+      "meaning": "肢"
+    },
+    {
+      "word": "thumb",
+      "meaning": "拇指"
+    },
+    {
+      "word": "tomb",
+      "meaning": "坟墓"
+    }
+  ],
+  "172": [
+    {
+      "word": "camp",
+      "meaning": "营地"
+    },
+    {
+      "word": "champ",
+      "meaning": "冠军"
+    },
+    {
+      "word": "hump",
+      "meaning": "驼峰"
+    },
+    {
+      "word": "jump",
+      "meaning": "跳"
+    },
+    {
+      "word": "lamp",
+      "meaning": "灯"
+    },
+    {
+      "word": "limp",
+      "meaning": "瘸着走"
+    },
+    {
+      "word": "shrimp",
+      "meaning": "虾"
+    },
+    {
+      "word": "stamp",
+      "meaning": "邮票"
+    }
+  ],
+  "173": [
+    {
+      "word": "chance",
+      "meaning": "机会"
+    },
+    {
+      "word": "change",
+      "meaning": "改变"
+    },
+    {
+      "word": "channel",
+      "meaning": "频道"
+    },
+    {
+      "word": "check",
+      "meaning": "检查"
+    },
+    {
+      "word": "cheese",
+      "meaning": "奶酪"
+    },
+    {
+      "word": "chicken",
+      "meaning": "鸡肉"
+    },
+    {
+      "word": "child",
+      "meaning": "小孩"
+    },
+    {
+      "word": "children",
+      "meaning": "孩子们"
+    },
+    {
+      "word": "China",
+      "meaning": "中国"
+    }
+  ],
+  "174": [
+    {
+      "word": "choose",
+      "meaning": "挑选/选择"
+    },
+    {
+      "word": "chocolate",
+      "meaning": "巧克力"
+    },
+    {
+      "word": "church",
+      "meaning": "教堂"
+    },
+    {
+      "word": "bench",
+      "meaning": "长椅"
+    },
+    {
+      "word": "lunch",
+      "meaning": "午餐"
+    },
+    {
+      "word": "much",
+      "meaning": "许多"
+    },
+    {
+      "word": "sandwich",
+      "meaning": "三明治"
+    },
+    {
+      "word": "teach",
+      "meaning": "教授"
+    }
+  ],
+  "175": [
+    {
+      "word": "backache",
+      "meaning": "背痛"
+    },
+    {
+      "word": "character",
+      "meaning": "性格"
+    },
+    {
+      "word": "chemist",
+      "meaning": "化学家"
+    },
+    {
+      "word": "Christmas",
+      "meaning": "圣诞节"
+    },
+    {
+      "word": "headache",
+      "meaning": "头痛"
+    },
+    {
+      "word": "school",
+      "meaning": "学校"
+    },
+    {
+      "word": "schoolbag",
+      "meaning": "书包"
+    }
+  ],
+  "176": [
+    {
+      "word": "shape",
+      "meaning": "形状"
+    },
+    {
+      "word": "shark",
+      "meaning": "鲨鱼"
+    },
+    {
+      "word": "sharp",
+      "meaning": "尖的"
+    },
+    {
+      "word": "sheep",
+      "meaning": "绵羊"
+    },
+    {
+      "word": "shell",
+      "meaning": "壳"
+    },
+    {
+      "word": "shelf",
+      "meaning": "架子"
+    },
+    {
+      "word": "shirt",
+      "meaning": "衬衫"
+    },
+    {
+      "word": "shoe",
+      "meaning": "鞋"
+    },
+    {
+      "word": "shorts",
+      "meaning": "短裤"
+    }
+  ],
+  "177": [
+    {
+      "word": "should",
+      "meaning": "应该"
+    },
+    {
+      "word": "shoulder",
+      "meaning": "肩膀"
+    },
+    {
+      "word": "show",
+      "meaning": "节目"
+    },
+    {
+      "word": "shower",
+      "meaning": "洗澡/冲淋浴"
+    },
+    {
+      "word": "cash",
+      "meaning": "现金"
+    },
+    {
+      "word": "dish",
+      "meaning": "盘"
+    },
+    {
+      "word": "finish",
+      "meaning": "完成"
+    },
+    {
+      "word": "push",
+      "meaning": "推"
+    }
+  ],
+  "178": [
+    {
+      "word": "thick",
+      "meaning": "厚的"
+    },
+    {
+      "word": "thin",
+      "meaning": "瘦的"
+    },
+    {
+      "word": "thing",
+      "meaning": "事物/东西"
+    },
+    {
+      "word": "third",
+      "meaning": "第三"
+    },
+    {
+      "word": "thirty",
+      "meaning": "三十"
+    },
+    {
+      "word": "three",
+      "meaning": "三"
+    },
+    {
+      "word": "through",
+      "meaning": "穿过"
+    },
+    {
+      "word": "throw",
+      "meaning": "扔"
+    },
+    {
+      "word": "bath",
+      "meaning": "洗澡"
+    }
+  ],
+  "179": [
+    {
+      "word": "fifth",
+      "meaning": "第五"
+    },
+    {
+      "word": "fourth",
+      "meaning": "第四"
+    },
+    {
+      "word": "math",
+      "meaning": "数学"
+    },
+    {
+      "word": "myth",
+      "meaning": "神话"
+    },
+    {
+      "word": "month",
+      "meaning": "月"
+    },
+    {
+      "word": "seventh",
+      "meaning": "第七"
+    },
+    {
+      "word": "sixth",
+      "meaning": "第六"
+    }
+  ],
+  "180": [
+    {
+      "word": "than",
+      "meaning": "比"
+    },
+    {
+      "word": "that",
+      "meaning": "那个"
+    },
+    {
+      "word": "their",
+      "meaning": "他们的"
+    },
+    {
+      "word": "theirs",
+      "meaning": "他们的"
+    },
+    {
+      "word": "there",
+      "meaning": "那里"
+    },
+    {
+      "word": "they",
+      "meaning": "他们"
+    },
+    {
+      "word": "this",
+      "meaning": "这个"
+    },
+    {
+      "word": "clothes",
+      "meaning": "衣服"
+    },
+    {
+      "word": "either",
+      "meaning": "或者"
+    }
+  ],
+  "181": [
+    {
+      "word": "father",
+      "meaning": "父亲"
+    },
+    {
+      "word": "mother",
+      "meaning": "母亲"
+    },
+    {
+      "word": "other",
+      "meaning": "别的"
+    },
+    {
+      "word": "together",
+      "meaning": "共同"
+    },
+    {
+      "word": "weather",
+      "meaning": "天气"
+    },
+    {
+      "word": "with",
+      "meaning": "和/在一起"
+    },
+    {
+      "word": "without",
+      "meaning": "没有/缺乏"
+    }
+  ],
+  "182": [
+    {
+      "word": "what",
+      "meaning": "什么"
+    },
+    {
+      "word": "wheel",
+      "meaning": "轮子"
+    },
+    {
+      "word": "where",
+      "meaning": "哪里"
+    },
+    {
+      "word": "when",
+      "meaning": "什么时候"
+    },
+    {
+      "word": "which",
+      "meaning": "哪一个"
+    },
+    {
+      "word": "who",
+      "meaning": "谁"
+    },
+    {
+      "word": "whose",
+      "meaning": "谁的"
+    },
+    {
+      "word": "why",
+      "meaning": "为什么"
+    }
+  ],
+  "183": [
+    {
+      "word": "dolphin",
+      "meaning": "海豚"
+    },
+    {
+      "word": "elephant",
+      "meaning": "大象"
+    },
+    {
+      "word": "graph",
+      "meaning": "曲线图"
+    },
+    {
+      "word": "phone",
+      "meaning": "电话"
+    },
+    {
+      "word": "phonics",
+      "meaning": "拼读法"
+    },
+    {
+      "word": "photo",
+      "meaning": "照片"
+    },
+    {
+      "word": "physics",
+      "meaning": "物理学"
+    },
+    {
+      "word": "trophy",
+      "meaning": "奖杯"
+    }
+  ],
+  "184": [
+    {
+      "word": "daughter",
+      "meaning": "女儿"
+    },
+    {
+      "word": "eight",
+      "meaning": "八"
+    },
+    {
+      "word": "eighteen",
+      "meaning": "十八"
+    },
+    {
+      "word": "eighth",
+      "meaning": "第八"
+    },
+    {
+      "word": "eighty",
+      "meaning": "八十"
+    },
+    {
+      "word": "fight",
+      "meaning": "斗争"
+    },
+    {
+      "word": "flight",
+      "meaning": "航班"
+    },
+    {
+      "word": "weight",
+      "meaning": "重量"
+    }
+  ],
+  "185": [
+    {
+      "word": "check",
+      "meaning": "检查"
+    },
+    {
+      "word": "cock",
+      "meaning": "公鸡"
+    },
+    {
+      "word": "duck",
+      "meaning": "鸭子"
+    },
+    {
+      "word": "luck",
+      "meaning": "幸运/好运"
+    },
+    {
+      "word": "lucky",
+      "meaning": "幸运的"
+    },
+    {
+      "word": "neck",
+      "meaning": "脖子"
+    },
+    {
+      "word": "rocket",
+      "meaning": "火箭"
+    },
+    {
+      "word": "truck",
+      "meaning": "卡车"
+    }
+  ],
+  "186": [
+    {
+      "word": "ceiling",
+      "meaning": "天花板"
+    },
+    {
+      "word": "celery",
+      "meaning": "芹菜"
+    },
+    {
+      "word": "center",
+      "meaning": "中心"
+    },
+    {
+      "word": "certain",
+      "meaning": "必然的"
+    },
+    {
+      "word": "cinema",
+      "meaning": "电影院"
+    },
+    {
+      "word": "circle",
+      "meaning": "圆"
+    },
+    {
+      "word": "city",
+      "meaning": "城市"
+    },
+    {
+      "word": "cycle",
+      "meaning": "自行车"
+    }
+  ],
+  "187": [
+    {
+      "word": "camera",
+      "meaning": "照相机"
+    },
+    {
+      "word": "clay",
+      "meaning": "粘土"
+    },
+    {
+      "word": "coffee",
+      "meaning": "咖啡"
+    },
+    {
+      "word": "cost",
+      "meaning": "花费"
+    },
+    {
+      "word": "cut",
+      "meaning": "切"
+    },
+    {
+      "word": "music",
+      "meaning": "音乐"
+    },
+    {
+      "word": "picnic",
+      "meaning": "野餐"
+    },
+    {
+      "word": "picture",
+      "meaning": "图片"
+    }
+  ],
+  "188": [
+    {
+      "word": "knee",
+      "meaning": "膝盖"
+    },
+    {
+      "word": "kneel",
+      "meaning": "跪着"
+    },
+    {
+      "word": "knife",
+      "meaning": "刀子"
+    },
+    {
+      "word": "knit",
+      "meaning": "编织"
+    },
+    {
+      "word": "knock",
+      "meaning": "敲"
+    },
+    {
+      "word": "knot",
+      "meaning": "绳结"
+    },
+    {
+      "word": "know",
+      "meaning": "知道"
+    }
+  ],
+  "189": [
+    {
+      "word": "wrap",
+      "meaning": "包裹"
+    },
+    {
+      "word": "wrinkle",
+      "meaning": "皱纹"
+    },
+    {
+      "word": "wrist",
+      "meaning": "手腕"
+    },
+    {
+      "word": "write",
+      "meaning": "写"
+    },
+    {
+      "word": "writer",
+      "meaning": "作家"
+    },
+    {
+      "word": "written",
+      "meaning": "书面的"
+    },
+    {
+      "word": "wrong",
+      "meaning": "错误的"
+    }
+  ],
+  "190": [
+    {
+      "word": "catch",
+      "meaning": "抓住"
+    },
+    {
+      "word": "fetch",
+      "meaning": "去拿来"
+    },
+    {
+      "word": "match",
+      "meaning": "比赛"
+    },
+    {
+      "word": "patch",
+      "meaning": "补丁"
+    },
+    {
+      "word": "switch",
+      "meaning": "开关"
+    },
+    {
+      "word": "watch",
+      "meaning": "看"
+    },
+    {
+      "word": "witch",
+      "meaning": "巫婆"
+    }
+  ],
+  "191": [
+    {
+      "word": "between",
+      "meaning": "在...中间"
+    },
+    {
+      "word": "twelfth",
+      "meaning": "第十二"
+    },
+    {
+      "word": "twelve",
+      "meaning": "十二"
+    },
+    {
+      "word": "twenty",
+      "meaning": "二十"
+    },
+    {
+      "word": "twice",
+      "meaning": "两次"
+    },
+    {
+      "word": "twin",
+      "meaning": "双胞胎的"
+    },
+    {
+      "word": "twinkle",
+      "meaning": "闪烁"
+    },
+    {
+      "word": "twist",
+      "meaning": "弯曲"
+    }
+  ],
+  "192": [
+    {
+      "word": "badge",
+      "meaning": "徽章"
+    },
+    {
+      "word": "bridge",
+      "meaning": "桥"
+    },
+    {
+      "word": "edge",
+      "meaning": "边缘"
+    },
+    {
+      "word": "fridge",
+      "meaning": "冰箱"
+    },
+    {
+      "word": "judge",
+      "meaning": "法官"
+    },
+    {
+      "word": "knowledge",
+      "meaning": "知识"
+    },
+    {
+      "word": "porridge",
+      "meaning": "粥"
+    },
+    {
+      "word": "sledge",
+      "meaning": "雪橇"
+    }
+  ],
+  "193": [
+    {
+      "word": "again",
+      "meaning": "再一次"
+    },
+    {
+      "word": "ago",
+      "meaning": "以前"
+    },
+    {
+      "word": "garage",
+      "meaning": "车库"
+    },
+    {
+      "word": "garden",
+      "meaning": "花园"
+    },
+    {
+      "word": "garlic",
+      "meaning": "大蒜"
+    },
+    {
+      "word": "grandma",
+      "meaning": "奶奶"
+    },
+    {
+      "word": "grandpa",
+      "meaning": "爷爷"
+    },
+    {
+      "word": "leg",
+      "meaning": "腿"
+    }
+  ],
+  "194": [
+    {
+      "word": "cage",
+      "meaning": "笼子"
+    },
+    {
+      "word": "general",
+      "meaning": "一般的"
+    },
+    {
+      "word": "genius",
+      "meaning": "天才"
+    },
+    {
+      "word": "ginger",
+      "meaning": "生姜"
+    },
+    {
+      "word": "giraffe",
+      "meaning": "长颈鹿"
+    },
+    {
+      "word": "gym",
+      "meaning": "体育馆"
+    },
+    {
+      "word": "orange",
+      "meaning": "橙子"
+    },
+    {
+      "word": "page",
+      "meaning": "页"
+    }
+  ],
+  "195": [
+    {
+      "word": "guard",
+      "meaning": "警卫"
+    },
+    {
+      "word": "guess",
+      "meaning": "猜测"
+    },
+    {
+      "word": "guest",
+      "meaning": "客人"
+    },
+    {
+      "word": "guide",
+      "meaning": "带领/向导"
+    },
+    {
+      "word": "guilt",
+      "meaning": "罪行"
+    },
+    {
+      "word": "guilty",
+      "meaning": "内疚的"
+    },
+    {
+      "word": "guitar",
+      "meaning": "吉他"
+    },
+    {
+      "word": "guy",
+      "meaning": "家伙"
+    }
+  ],
+  "196": [
+    {
+      "word": "add",
+      "meaning": "增加"
+    },
+    {
+      "word": "address",
+      "meaning": "地址"
+    },
+    {
+      "word": "daddy",
+      "meaning": "爸爸"
+    },
+    {
+      "word": "ladder",
+      "meaning": "梯子"
+    },
+    {
+      "word": "middle",
+      "meaning": "中间的"
+    },
+    {
+      "word": "pudding",
+      "meaning": "布丁"
+    },
+    {
+      "word": "riddle",
+      "meaning": "谜语"
+    },
+    {
+      "word": "wedding",
+      "meaning": "婚礼"
+    }
+  ],
+  "197": [
+    {
+      "word": "bubble",
+      "meaning": "泡沫"
+    },
+    {
+      "word": "cabbage",
+      "meaning": "卷心菜"
+    },
+    {
+      "word": "rabbit",
+      "meaning": "兔子"
+    },
+    {
+      "word": "ribbon",
+      "meaning": "丝带"
+    },
+    {
+      "word": "robber",
+      "meaning": "强盗"
+    },
+    {
+      "word": "rubber",
+      "meaning": "橡胶"
+    },
+    {
+      "word": "rubbish",
+      "meaning": "垃圾"
+    },
+    {
+      "word": "pebble",
+      "meaning": "鹅卵石"
+    }
+  ],
+  "198": [
+    {
+      "word": "happen",
+      "meaning": "发生"
+    },
+    {
+      "word": "hippo",
+      "meaning": "河马"
+    },
+    {
+      "word": "pepper",
+      "meaning": "辣椒"
+    },
+    {
+      "word": "puppet",
+      "meaning": "木偶"
+    },
+    {
+      "word": "puppy",
+      "meaning": "小狗"
+    },
+    {
+      "word": "supper",
+      "meaning": "晚餐"
+    },
+    {
+      "word": "supply",
+      "meaning": "供应"
+    },
+    {
+      "word": "support",
+      "meaning": "支持"
+    }
+  ],
+  "199": [
+    {
+      "word": "arrive",
+      "meaning": "到达"
+    },
+    {
+      "word": "berry",
+      "meaning": "浆果"
+    },
+    {
+      "word": "carrot",
+      "meaning": "胡萝卜"
+    },
+    {
+      "word": "carry",
+      "meaning": "提/扛"
+    },
+    {
+      "word": "hurry",
+      "meaning": "匆忙"
+    },
+    {
+      "word": "merry",
+      "meaning": "愉快的"
+    },
+    {
+      "word": "sorry",
+      "meaning": "对不起"
+    },
+    {
+      "word": "worry",
+      "meaning": "担心"
+    }
+  ]
+}

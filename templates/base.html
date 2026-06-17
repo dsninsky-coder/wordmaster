@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}单词大师{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    {% if session.user %}
+    <nav class="navbar">
+        <div class="nav-brand">📚 单词大师</div>
+        <ul class="nav-links">
+            {% if not dm.is_admin(session.user) %}
+            <li><a href="{{ url_for('study') }}" {% if request.endpoint == 'study' %}class="active"{% endif %}>
+                <span class="nav-icon">📖</span> 新背单词
+            </a></li>
+            <li><a href="{{ url_for('review') }}" {% if request.endpoint == 'review' %}class="active"{% endif %}>
+                <span class="nav-icon">🔄</span> 复习
+            </a></li>
+            {% endif %}
+            <li><a href="{{ url_for('import_words') }}" {% if request.endpoint == 'import_words' %}class="active"{% endif %}>
+                <span class="nav-icon">📥</span> 导入单词
+            </a></li>
+            <li><a href="{{ url_for('stats') }}" {% if request.endpoint == 'stats' %}class="active"{% endif %}>
+                <span class="nav-icon">📊</span> 统计
+            </a></li>
+            <li><a href="{{ url_for('coins') }}" {% if request.endpoint == 'coins' %}class="active"{% endif %}>
+                <span class="nav-icon">🪙</span> 金币
+            </a></li>
+            <li><a href="{{ url_for('shop') }}" {% if request.endpoint == 'shop' %}class="active"{% endif %}>
+                <span class="nav-icon">🛒</span> 商城
+            </a></li>
+            <li><a href="{{ url_for('wishes') }}" {% if request.endpoint == 'wishes' %}class="active"{% endif %}>
+                <span class="nav-icon">✨</span> 许愿池
+            </a></li>
+            <li><a href="{{ url_for('settings') }}" {% if request.endpoint == 'settings' %}class="active"{% endif %}>
+                <span class="nav-icon">⚙️</span> 设置
+            </a></li>
+            {% if session.user and dm.is_admin(session.user) %}
+            <li><a href="{{ url_for('admin') }}" {% if request.endpoint == 'admin' %}class="active"{% endif %}>
+                <span class="nav-icon">🛡️</span> 超管
+            </a></li>
+            {% endif %}
+        </ul>
+        <div class="nav-user">
+            <span class="user-badge">👤 {{ session.user }}</span>
+            <a href="{{ url_for('logout') }}" class="logout-btn">退出</a>
+        </div>
+    </nav>
+    {% endif %}
+    <div class="page-wrapper">
+        <div class="container">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    {% block scripts %}{% endblock %}
+    <footer class="site-footer">
+        <span>单词大师 WordMaster v{{ version }}</span>
+    </footer>
+</body>
+</html>

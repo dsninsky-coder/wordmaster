@@ -1,0 +1,8 @@
+{
+  "review_count": 5,
+  "chatgpt_api_key": "",
+  "chatgpt_base_url": "https://api.openai.com/v1",
+  "ai_model": "deepseek-chat",
+  "require_review_before_study": false,
+  "require_both_modes": false
+}

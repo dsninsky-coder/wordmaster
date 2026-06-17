@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# WorkBuddy
+.workbuddy/
+
+# User data (contains passwords and personal info)
+data/user.json
+data/history/
+data/admin_config.json
+data/coins.json
+data/shop.json
+data/wishes.json
+
+# Keep template data files
+# data/config.json and data/words.json are kept as examples
+
+# Non-used scripts
+non_used/
+
+# Logs
+*.log
