@@ -42,3 +42,6 @@ non_used/
 
 # Logs
 *.log
+
+# Test artifacts
+cookies.txt

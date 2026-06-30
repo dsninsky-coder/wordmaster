@@ -8,7 +8,7 @@ import calendar
 from datetime import datetime
 from functools import wraps
 
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 
 app = Flask(__name__)
 app.secret_key = 'wordmaster-secret-key-2026'
@@ -370,7 +370,7 @@ def study_submit():
     ctx['quiz_mode'] = mode
     session['study_context'] = ctx
 
-    if mode == 'en2zh':
+    if mode == 'en2zh' or mode == 'audio2zh':
         correct, method = judge_en2zh(user_answer, word_zh, word_en, config)
     else:
         correct, method = judge_zh2en(user_answer, word_en)
@@ -418,7 +418,7 @@ def study_restart():
         return jsonify({'error': '无进行中的学习'}), 400
     data = request.get_json() or {}
     new_mode = data.get('mode', 'en2zh')
-    if new_mode not in ('en2zh', 'zh2en'):
+    if new_mode not in ('en2zh', 'zh2en', 'audio2zh'):
         new_mode = 'en2zh'
     # 保留词单，重新打乱，重置进度
     random.shuffle(ctx['words'])
@@ -550,7 +550,7 @@ def review_submit():
     ctx['quiz_mode'] = mode
     session['review_context'] = ctx
 
-    if mode == 'en2zh':
+    if mode == 'en2zh' or mode == 'audio2zh':
         correct, method = judge_en2zh(user_answer, word_zh, word_en, config)
     else:
         correct, method = judge_zh2en(user_answer, word_en)
@@ -597,7 +597,7 @@ def review_restart():
         return jsonify({'error': '无进行中的复习'}), 400
     data = request.get_json() or {}
     new_mode = data.get('mode', 'en2zh')
-    if new_mode not in ('en2zh', 'zh2en'):
+    if new_mode not in ('en2zh', 'zh2en', 'audio2zh'):
         new_mode = 'en2zh'
     random.shuffle(ctx['words'])
     ctx['quiz_mode'] = new_mode
@@ -743,6 +743,9 @@ def admin():
             admin_cfg['shared_base_url'] = request.form.get('shared_base_url', 'https://api.openai.com/v1').strip()
             admin_cfg['shared_ai_model'] = request.form.get('shared_ai_model', 'deepseek-chat').strip()
             admin_cfg['retry_cooldown_seconds'] = int(request.form.get('retry_cooldown_seconds', 60))
+            # 音译汉 & 英译汉发音设置
+            admin_cfg['tts_in_en2zh'] = 'tts_in_en2zh' in request.form
+            admin_cfg['audio2zh_enabled'] = 'audio2zh_enabled' in request.form
             # 允许使用共享API的用户
             allowed = request.form.getlist('allowed_api_users')
             admin_cfg['allowed_api_users'] = allowed
@@ -915,6 +918,7 @@ def stats():
     # 分模式统计
     en2zh_results = [r for r in quiz_results if r.get('quiz_mode', 'en2zh') == 'en2zh']
     zh2en_results = [r for r in quiz_results if r.get('quiz_mode', 'en2zh') == 'zh2en']
+    audio2zh_results = [r for r in quiz_results if r.get('quiz_mode', 'en2zh') == 'audio2zh']
 
     def calc_stats(results):
         total_q = len(results)
@@ -946,6 +950,7 @@ def stats():
         learned_lists=learned_lists,
         en2zh_stats=calc_stats(en2zh_results),
         zh2en_stats=calc_stats(zh2en_results),
+        audio2zh_stats=calc_stats(audio2zh_results),
         view_user=target_user if is_viewing_other else None,
         all_users=dm.get_all_usernames() if dm.is_admin(username) else []
     )
@@ -959,9 +964,13 @@ def learn():
     if quiz_type not in ['study', 'review']:
         return redirect(url_for('coins'))
     quiz_mode = request.args.get('mode', 'en2zh')
-    if quiz_mode not in ['en2zh', 'zh2en']:
+    if quiz_mode not in ['en2zh', 'zh2en', 'audio2zh']:
         quiz_mode = 'en2zh'
-    return render_template('check.html', type=quiz_type, mode=quiz_mode)
+    admin_cfg = dm.load_admin_config()
+    tts_in_en2zh = admin_cfg.get('tts_in_en2zh', False)
+    audio2zh_enabled = admin_cfg.get('audio2zh_enabled', True)
+    return render_template('check.html', type=quiz_type, mode=quiz_mode,
+                           tts_in_en2zh=tts_in_en2zh, audio2zh_enabled=audio2zh_enabled)
 
 
 # ============================================================

@@ -51,6 +51,28 @@
                        min="0" max="86400" class="setting-input">
             </div>
 
+            <div class="setting-row" style="gap:14px;align-items:center;">
+                <div>
+                    <label style="font-weight:600;">英译汉发音开关</label>
+                    <p class="setting-desc" style="margin:2px 0 0;">开启后，学生在英译汉模式下可以看到发音按钮辅助记忆；关闭则只能看单词文字。</p>
+                </div>
+                <label class="toggle-switch">
+                    <input type="checkbox" name="tts_in_en2zh" {% if admin_cfg.get('tts_in_en2zh') %}checked{% endif %}>
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="setting-row" style="gap:14px;align-items:center;">
+                <div>
+                    <label style="font-weight:600;">音译汉模式开关</label>
+                    <p class="setting-desc" style="margin:2px 0 0;">开启后，学生在答题时可以切换到"🎧 音→中"模式（听发音写中文）；关闭则隐藏该模式入口。</p>
+                </div>
+                <label class="toggle-switch">
+                    <input type="checkbox" name="audio2zh_enabled" {% if admin_cfg.get('audio2zh_enabled', True) %}checked{% endif %}>
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
             <div class="setting-row vertical">
                 <label>允许使用共享 API 的用户</label>
                 <p class="setting-desc">勾选的用户将自动使用上方共享 API Key，其个人设置的 API Key 会被覆盖。</p>

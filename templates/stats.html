@@ -95,6 +95,28 @@
             </div>
         </div>
     </div>
+    <div class="mode-stats-card" style="border-color:var(--warning);">
+        <div class="mode-stats-header">
+            <span class="mode-stats-icon">🎧</span>
+            <span class="mode-stats-title">音 → 中</span>
+        </div>
+        <div class="mode-stats-body">
+            <div class="mode-stat-item">
+                <span class="mode-stat-num">{{ audio2zh_stats.count }}</span>
+                <span class="mode-stat-label">次测验</span>
+            </div>
+            <div class="mode-stat-item">
+                <span class="mode-stat-num">{{ audio2zh_stats.words }}</span>
+                <span class="mode-stat-label">累计答题</span>
+            </div>
+            <div class="mode-stat-item">
+                <span class="mode-stat-num {{ 'stat-good' if audio2zh_stats.avg_percent >= 80 else 'stat-bad' }}">
+                    {{ audio2zh_stats.avg_percent }}%
+                </span>
+                <span class="mode-stat-label">平均正确率</span>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- 标签页 -->
@@ -112,6 +134,7 @@
         <button class="filter-btn" onclick="filterRecords('review', this)">复习</button>
         <button class="filter-btn" onclick="filterRecords('en2zh', this)">英→中</button>
         <button class="filter-btn" onclick="filterRecords('zh2en', this)">中→英</button>
+        <button class="filter-btn" onclick="filterRecords('audio2zh', this)">音→中</button>
     </div>
 
     {% if history.quiz_results %}
@@ -145,6 +168,8 @@
                     <td>
                         {% if rec.quiz_mode is defined and rec.quiz_mode == 'zh2en' %}
                         <span class="badge badge-info">中→英</span>
+                        {% elif rec.quiz_mode is defined and rec.quiz_mode == 'audio2zh' %}
+                        <span class="badge" style="background:var(--warning-light);color:var(--warning);">音→中</span>
                         {% else %}
                         <span class="badge badge-secondary">英→中</span>
                         {% endif %}

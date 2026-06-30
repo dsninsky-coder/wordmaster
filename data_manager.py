@@ -156,6 +156,8 @@ class DataManager:
         cfg.setdefault("allowed_api_users", [])
         cfg.setdefault("retry_cooldown_seconds", 60)
         cfg.setdefault("controlled_users", {})
+        cfg.setdefault("tts_in_en2zh", False)
+        cfg.setdefault("audio2zh_enabled", True)
         return cfg
 
     def save_admin_config(self, cfg):
