@@ -643,15 +643,7 @@ class DataManager:
         history["no_wrong_tickets"] = history.get("no_wrong_tickets", 0) + n
         self.save_user_history(username, history)
 
-    def use_ticket(self, username):
-        """消耗一张免错券，成功返回 True"""
-        history = self.load_user_history(username)
-        cnt = history.get("no_wrong_tickets", 0)
-        if cnt <= 0:
-            return False
-        history["no_wrong_tickets"] = cnt - 1
-        self.save_user_history(username, history)
-        return True
+    # 免错券使用逻辑移至文件末尾（含上下架状态检查）
 
     # ============================================================
     # 商城
@@ -842,3 +834,145 @@ class DataManager:
         """包含管理员的全用户列表"""
         users = self.load_users()
         return list(users.keys())
+
+    # ============================================================
+    # 考试系统
+    # ============================================================
+    EXAM_FILE = os.path.join("data", "exam.json")
+
+    def _ensure_exam_file(self):
+        if not os.path.exists(self.EXAM_FILE):
+            with open(self.EXAM_FILE, 'w', encoding='utf-8') as f:
+                json.dump({"exams": {}}, f, indent=2, ensure_ascii=False)
+
+    def load_exams(self):
+        self._ensure_exam_file()
+        with open(self.EXAM_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+
+    def save_exams(self, data):
+        with open(self.EXAM_FILE, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+    def get_user_exams(self, username):
+        """返回用户的5个考试槽位配置（None 表示空槽位）"""
+        data = self.load_exams()
+        exams = data.get("exams", {}).get(username, [])
+        while len(exams) < 5:
+            exams.append(None)
+        return exams[:5]
+
+    def save_user_exam(self, username, slot, ranges, capacity, quiz_mode):
+        """保存/替换指定槽位（1-5）的考试配置"""
+        data = self.load_exams()
+        if "exams" not in data:
+            data["exams"] = {}
+        if username not in data["exams"]:
+            data["exams"][username] = [None] * 5
+        while len(data["exams"][username]) < 5:
+            data["exams"][username].append(None)
+
+        slot_idx = slot - 1
+        data["exams"][username][slot_idx] = {
+            "slot": slot,
+            "ranges": ranges,
+            "capacity": capacity,
+            "quiz_mode": quiz_mode,
+            "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        }
+        self.save_exams(data)
+        return True
+
+    def delete_user_exam(self, username, slot):
+        """清空指定槽位"""
+        data = self.load_exams()
+        if username in data.get("exams", {}):
+            slot_idx = slot - 1
+            if slot_idx < len(data["exams"][username]):
+                data["exams"][username][slot_idx] = None
+                self.save_exams(data)
+                return True
+        return False
+
+    def get_sorted_list_names(self):
+        """获取自然排序的 list 名称列表"""
+        import re
+        words = self.load_words()
+        names = list(words.keys())
+        def natural_key(s):
+            return [int(t) if t.isdigit() else t.lower()
+                    for t in re.split(r'(\d+)', str(s))]
+        names.sort(key=natural_key)
+        return names
+
+    def generate_exam_words(self, ranges, capacity):
+        """
+        根据list范围和容量生成随机试卷
+        ranges: [[start, end], ...]  1-based list indices
+        capacity: int
+        返回: [{"word": ..., "meaning": ..., "list": ...}, ...]
+        """
+        words_data = self.load_words()
+        sorted_names = self.get_sorted_list_names()
+
+        pool = []
+        for start, end in ranges:
+            for i in range(start, end + 1):
+                if 1 <= i <= len(sorted_names):
+                    list_name = sorted_names[i - 1]
+                    if list_name in words_data:
+                        for w in words_data[list_name]:
+                            pool.append({
+                                "word": w["word"],
+                                "meaning": w["meaning"],
+                                "list": list_name
+                            })
+
+        import random as _random
+        _random.shuffle(pool)
+        if len(pool) > capacity:
+            pool = pool[:capacity]
+        return pool
+
+    def format_ranges_display(self, ranges):
+        """将 ranges 格式化为显示字符串，如 '1~5, 9, 22~31'"""
+        parts = []
+        for start, end in ranges:
+            if start == end:
+                parts.append(str(start))
+            else:
+                parts.append(f"{start}~{end}")
+        return ", ".join(parts)
+
+    # ============================================================
+    # 免错券上下架状态
+    # ============================================================
+    def is_ticket_active(self):
+        """检查免错券商品是否处于上架状态"""
+        shop = self.load_shop()
+        for p in shop.get("products", []):
+            if p["id"] == "no_wrong_ticket":
+                return p.get("active", True)
+        return False
+
+    def set_ticket_active(self, active):
+        """设置免错券商品的上架/下架状态"""
+        shop = self.load_shop()
+        for p in shop.get("products", []):
+            if p["id"] == "no_wrong_ticket":
+                p["active"] = active
+                break
+        self.save_shop(shop)
+        return True
+
+    def use_ticket(self, username):
+        """消耗一张免错券，成功返回 True。若商品已下架则返回 False。"""
+        if not self.is_ticket_active():
+            return False
+        history = self.load_user_history(username)
+        cnt = history.get("no_wrong_tickets", 0)
+        if cnt <= 0:
+            return False
+        history["no_wrong_tickets"] = cnt - 1
+        self.save_user_history(username, history)
+        return True

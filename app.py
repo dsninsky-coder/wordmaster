@@ -174,6 +174,7 @@ def logout():
     session.pop('user', None)
     session.pop('study_context', None)
     session.pop('review_context', None)
+    session.pop('exam_context', None)
     return redirect(url_for('login'))
 
 
@@ -920,12 +921,20 @@ def stats():
     zh2en_results = [r for r in quiz_results if r.get('quiz_mode', 'en2zh') == 'zh2en']
     audio2zh_results = [r for r in quiz_results if r.get('quiz_mode', 'en2zh') == 'audio2zh']
 
+    # 分类统计（新背/复习/考试）
+    study_results = [r for r in quiz_results if r.get('mode', 'study') == 'study']
+    review_results = [r for r in quiz_results if r.get('mode', 'study') == 'review']
+    exam_results = [r for r in quiz_results if r.get('mode', 'study') == 'exam']
+
     def calc_stats(results):
         total_q = len(results)
         total_w = sum(r.get('total', 0) for r in results)
         total_c = sum(r.get('correct', 0) for r in results)
         avg_p = round(total_c / total_w * 100, 1) if total_w > 0 else 0
-        return {'count': total_q, 'words': total_w, 'correct': total_c, 'avg_percent': avg_p}
+        passed = sum(1 for r in results if r.get('passed', False))
+        pass_rate = round(passed / total_q * 100, 1) if total_q > 0 else 0
+        return {'count': total_q, 'words': total_w, 'correct': total_c,
+                'avg_percent': avg_p, 'passed': passed, 'pass_rate': pass_rate}
 
     total_quizzes = len(quiz_results)
     total_words = sum(r.get('total', 0) for r in quiz_results)
@@ -951,17 +960,20 @@ def stats():
         en2zh_stats=calc_stats(en2zh_results),
         zh2en_stats=calc_stats(zh2en_results),
         audio2zh_stats=calc_stats(audio2zh_results),
+        study_stats=calc_stats(study_results),
+        review_stats=calc_stats(review_results),
+        exam_stats=calc_stats(exam_results),
         view_user=target_user if is_viewing_other else None,
         all_users=dm.get_all_usernames() if dm.is_admin(username) else []
     )
 
 
-# ---------- 学习/复习统一界面 ----------
+# ---------- 学习/复习/考试统一界面 ----------
 @app.route('/learn')
 @login_required
 def learn():
     quiz_type = request.args.get('type', 'study')
-    if quiz_type not in ['study', 'review']:
+    if quiz_type not in ['study', 'review', 'exam']:
         return redirect(url_for('coins'))
     quiz_mode = request.args.get('mode', 'en2zh')
     if quiz_mode not in ['en2zh', 'zh2en', 'audio2zh']:
@@ -969,8 +981,278 @@ def learn():
     admin_cfg = dm.load_admin_config()
     tts_in_en2zh = admin_cfg.get('tts_in_en2zh', False)
     audio2zh_enabled = admin_cfg.get('audio2zh_enabled', True)
+    ticket_active = dm.is_ticket_active()
+    # 考试模式：读取 slot 参数
+    exam_slot = request.args.get('slot', '')
+    # 考试模式：没有考试上下文时重定向到考试列表
+    if quiz_type == 'exam' and not session.get('exam_context'):
+        return redirect(url_for('exam'))
+
     return render_template('check.html', type=quiz_type, mode=quiz_mode,
-                           tts_in_en2zh=tts_in_en2zh, audio2zh_enabled=audio2zh_enabled)
+                           tts_in_en2zh=tts_in_en2zh, audio2zh_enabled=audio2zh_enabled,
+                           ticket_active=ticket_active, exam_slot=exam_slot)
+
+
+# ============================================================
+# 考试系统
+# ============================================================
+@app.route('/exam')
+@login_required
+def exam():
+    username = session['user']
+    exams = dm.get_user_exams(username)
+    # 格式化显示信息
+    exam_display = []
+    for i, ex in enumerate(exams):
+        if ex:
+            exam_display.append({
+                'slot': i + 1,
+                'ranges_display': dm.format_ranges_display(ex['ranges']),
+                'capacity': ex['capacity'],
+                'quiz_mode': ex['quiz_mode'],
+                'created_at': ex.get('created_at', ''),
+                'active': True
+            })
+        else:
+            exam_display.append({'slot': i + 1, 'active': False})
+    return render_template('exam.html', exams=exam_display)
+
+
+@app.route('/exam/start', methods=['POST'])
+@login_required
+def exam_start():
+    username = session['user']
+    data = request.get_json()
+    slot = int(data.get('slot', 0))
+    if slot < 1 or slot > 5:
+        return jsonify({'success': False, 'message': '无效的考试槽位'})
+
+    exams = dm.get_user_exams(username)
+    exam_cfg = exams[slot - 1]
+    if not exam_cfg:
+        return jsonify({'success': False, 'message': '该考试槽位未配置'})
+
+    # 每次考试都重新随机生成试卷
+    words = dm.generate_exam_words(exam_cfg['ranges'], exam_cfg['capacity'])
+    if not words:
+        return jsonify({'success': False, 'message': '考试范围内没有单词'})
+
+    session['exam_context'] = {
+        'mode': 'exam',
+        'slot': slot,
+        'words': words,
+        'current_index': 0,
+        'correct_count': 0,
+        'total': len(words),
+        'wrong_words': [],
+        'quiz_mode': exam_cfg['quiz_mode'],
+        'ranges_display': dm.format_ranges_display(exam_cfg['ranges'])
+    }
+    return jsonify({'success': True, 'total': len(words), 'quiz_mode': exam_cfg['quiz_mode']})
+
+
+@app.route('/exam/next', methods=['GET'])
+@login_required
+def exam_next():
+    ctx = session.get('exam_context')
+    if not ctx or ctx['mode'] != 'exam':
+        return jsonify({'error': '无进行中的考试'}), 400
+    if ctx['current_index'] >= ctx['total']:
+        correct = ctx['correct_count']
+        total = ctx['total']
+        quiz_mode = ctx.get('quiz_mode', 'en2zh')
+        passed = (correct / total >= 0.8) if total > 0 else False
+        slot = ctx.get('slot', 0)
+
+        dm.add_quiz_result(session['user'], f'考试{slot}', correct, total,
+                           mode="exam", quiz_mode=quiz_mode)
+
+        session.pop('exam_context', None)
+
+        return jsonify({
+            'finished': True,
+            'passed': passed,
+            'message': f'完成考试{slot}！',
+            'correct': correct,
+            'total': total,
+            'percent': round(correct / total * 100, 1) if total > 0 else 0,
+            'slot': slot
+        })
+    word = ctx['words'][ctx['current_index']]
+    return jsonify({
+        'finished': False,
+        'word': word,
+        'index': ctx['current_index'] + 1,
+        'total': ctx['total']
+    })
+
+
+@app.route('/exam/submit', methods=['POST'])
+@login_required
+def exam_submit():
+    ctx = session.get('exam_context')
+    if not ctx or ctx['mode'] != 'exam':
+        return jsonify({'error': '无进行中的考试'}), 400
+    data = request.get_json()
+    mode = data.get('mode', 'en2zh')
+    user_answer = data.get('answer', '').strip()
+    word = ctx['words'][ctx['current_index']]
+    word_en = word['word']
+    word_zh = word['meaning']
+    config, _ = dm.get_effective_config(session['user'])
+
+    ctx['quiz_mode'] = mode
+    session['exam_context'] = ctx
+
+    if mode == 'en2zh' or mode == 'audio2zh':
+        correct, method = judge_en2zh(user_answer, word_zh, word_en, config)
+    else:
+        correct, method = judge_zh2en(user_answer, word_en)
+
+    if correct:
+        ctx['correct_count'] += 1
+        ctx['current_index'] += 1
+        session['exam_context'] = ctx
+        return jsonify({'correct': True, 'message': '✓ 回答正确！', 'method': method})
+    else:
+        ctx.setdefault('wrong_words', [])
+        if word_en not in ctx['wrong_words']:
+            ctx['wrong_words'].append(word_en)
+        session['exam_context'] = ctx
+        return jsonify({
+            'correct': False,
+            'expected': word_en if mode == 'zh2en' else word_zh,
+            'message': '✗ 回答错误',
+            'method': method,
+            'need_advance': True
+        })
+
+
+@app.route('/exam/advance', methods=['POST'])
+@login_required
+def exam_advance():
+    """答错后手动推进到下一题"""
+    ctx = session.get('exam_context')
+    if not ctx or ctx['mode'] != 'exam':
+        return jsonify({'error': '无进行中的考试'}), 400
+    ctx['current_index'] += 1
+    session['exam_context'] = ctx
+    return jsonify({'success': True})
+
+
+@app.route('/exam/restart', methods=['POST'])
+@login_required
+def exam_restart():
+    """考试重新开始：重新随机生成试卷"""
+    ctx = session.get('exam_context')
+    if not ctx or ctx['mode'] != 'exam':
+        return jsonify({'error': '无进行中的考试'}), 400
+    slot = ctx.get('slot', 0)
+    exams = dm.get_user_exams(session['user'])
+    exam_cfg = exams[slot - 1] if slot > 0 else None
+    if not exam_cfg:
+        return jsonify({'error': '考试配置不存在'}), 400
+    words = dm.generate_exam_words(exam_cfg['ranges'], exam_cfg['capacity'])
+    ctx['words'] = words
+    ctx['current_index'] = 0
+    ctx['correct_count'] = 0
+    ctx['wrong_words'] = []
+    ctx['quiz_mode'] = exam_cfg['quiz_mode']
+    session['exam_context'] = ctx
+    return jsonify({'success': True})
+
+
+@app.route('/exam/ticket_override', methods=['POST'])
+@login_required
+def exam_ticket_override():
+    """免错券：将当前答错的题目计为正确，并推进"""
+    ctx = session.get('exam_context')
+    if not ctx or ctx['mode'] != 'exam':
+        return jsonify({'error': '无进行中的考试'}), 400
+    ctx['correct_count'] = ctx.get('correct_count', 0) + 1
+    ctx['current_index'] += 1
+    word = ctx['words'][ctx['current_index'] - 1] if ctx['current_index'] > 0 else None
+    if word:
+        ctx.setdefault('wrong_words', [])
+        if word['word'] in ctx['wrong_words']:
+            ctx['wrong_words'].remove(word['word'])
+    session['exam_context'] = ctx
+    return jsonify({'success': True})
+
+
+# ============================================================
+# 管理员：考试管理
+# ============================================================
+@app.route('/admin/exam')
+@admin_required
+def admin_exam():
+    all_users = dm.get_all_usernames()
+    sorted_lists = dm.get_sorted_list_names()
+    # 构建 list 索引映射 (1-based)
+    list_index_map = [(i + 1, name) for i, name in enumerate(sorted_lists)]
+    return render_template('exam_admin.html', all_users=all_users, list_index_map=list_index_map)
+
+
+@app.route('/admin/exam_data', methods=['GET'])
+@admin_required
+def admin_exam_data():
+    """获取指定用户的考试配置（AJAX）"""
+    target_user = request.args.get('user', '')
+    if not target_user:
+        return jsonify({'exams': [None] * 5})
+    exams = dm.get_user_exams(target_user)
+    return jsonify({'exams': exams})
+
+
+@app.route('/admin/exam_save', methods=['POST'])
+@admin_required
+def admin_exam_save():
+    data = request.get_json()
+    target_user = data.get('target_user', '').strip()
+    slot = int(data.get('slot', 0))
+    ranges = data.get('ranges', [])
+    capacity = int(data.get('capacity', 10))
+    quiz_mode = data.get('quiz_mode', 'en2zh')
+
+    if not target_user:
+        return jsonify({'success': False, 'message': '请选择用户'})
+    if slot < 1 or slot > 5:
+        return jsonify({'success': False, 'message': '无效的考试槽位'})
+    if not ranges:
+        return jsonify({'success': False, 'message': '请至少添加一个考试范围'})
+    if capacity < 1:
+        return jsonify({'success': False, 'message': '考试容量至少为 1'})
+    if quiz_mode not in ('en2zh', 'zh2en', 'audio2zh'):
+        quiz_mode = 'en2zh'
+
+    # 验证 ranges 格式（支持两种格式：[[1,3]] 或 [{"start":1,"end":3}]）
+    clean_ranges = []
+    for r in ranges:
+        if isinstance(r, (list, tuple)) and len(r) >= 2:
+            start, end = int(r[0]), int(r[1])
+        elif isinstance(r, dict):
+            start = int(r.get('start', 0))
+            end = int(r.get('end', 0))
+        else:
+            return jsonify({'success': False, 'message': f'无效的范围格式：{r}'})
+        if start < 1 or end < 1 or start > end:
+            return jsonify({'success': False, 'message': f'无效的范围：{start}~{end}'})
+        clean_ranges.append([start, end])
+
+    dm.save_user_exam(target_user, slot, clean_ranges, capacity, quiz_mode)
+    return jsonify({'success': True, 'message': f'已保存考试{slot}并推送给 {target_user}'})
+
+
+@app.route('/admin/exam_delete', methods=['POST'])
+@admin_required
+def admin_exam_delete():
+    data = request.get_json()
+    target_user = data.get('target_user', '').strip()
+    slot = int(data.get('slot', 0))
+    if not target_user or slot < 1 or slot > 5:
+        return jsonify({'success': False, 'message': '参数无效'})
+    dm.delete_user_exam(target_user, slot)
+    return jsonify({'success': True, 'message': f'已清除考试{slot}'})
 
 
 # ============================================================
@@ -1281,6 +1563,9 @@ def admin_wishes_data():
 @login_required
 def use_ticket():
     username = session['user']
+    # 检查免错券是否已下架
+    if not dm.is_ticket_active():
+        return jsonify({'success': False, 'message': '免错券已被管理员下架，暂时无法使用'})
     success = dm.use_ticket(username)
     if success:
         remaining = dm.get_ticket_count(username)

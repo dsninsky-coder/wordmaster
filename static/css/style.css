@@ -1221,3 +1221,96 @@ kbd {
     font-size: 12px;
     font-weight: 600;
 }
+
+/* ============================
+   考试系统样式
+   ============================ */
+.exam-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 600px;
+}
+.exam-card {
+    border: 1.5px solid var(--border-color);
+    border-radius: 12px;
+    padding: 20px;
+    background: var(--card-bg, #fff);
+    transition: all 0.2s;
+}
+.exam-card-active {
+    border-color: var(--primary);
+    box-shadow: 0 2px 8px rgba(67, 97, 238, 0.1);
+}
+.exam-card-active:hover {
+    box-shadow: 0 4px 16px rgba(67, 97, 238, 0.15);
+}
+.exam-card-empty {
+    opacity: 0.5;
+    border-style: dashed;
+}
+.exam-card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+.exam-slot-badge {
+    background: var(--primary);
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.exam-slot-empty {
+    background: var(--gray-300);
+}
+.exam-mode-tag {
+    font-size: 13px;
+    color: var(--text-secondary);
+    background: var(--gray-100);
+    padding: 3px 10px;
+    border-radius: 6px;
+}
+.exam-card-body {
+    margin-bottom: 16px;
+}
+.exam-info-row {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+.exam-info-label {
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+.exam-info-value {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+.exam-empty-text {
+    color: var(--text-muted);
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 0;
+}
+.exam-card-actions {
+    text-align: right;
+}
+
+/* 考试管理 - 范围输入 */
+.exam-ranges-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.exam-range-pair {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.exam-slot-card {
+    border-left: 3px solid var(--primary);
+}

@@ -239,6 +239,13 @@
         <div id="shop-orders-area">加载中...</div>
     </div>
 
+    <!-- ⑤ 考试管理入口 -->
+    <div class="settings-card" style="grid-column: 1 / -1;">
+        <h3 class="settings-section-title">📝 考试管理</h3>
+        <p class="setting-desc">为不同用户指定考试内容（范围、容量、考核方式），推送给学生参加。</p>
+        <a href="{{ url_for('admin_exam') }}" class="btn btn-primary">前往考试管理 →</a>
+    </div>
+
     <!-- ⑤ 金币发放管理 -->
     <div class="settings-card" style="grid-column: 1 / -1;">
         <h3 class="settings-section-title">🪙 金币发放管理</h3>
@@ -492,15 +499,18 @@ function renderProducts(products) {
     let html = '<div style="display:flex;flex-wrap:wrap;gap:12px;">';
     for (const p of products) {
         const isBuiltin = p.type === 'builtin';
-        html += `<div style="border:1.5px solid var(--border-color);border-radius:10px;padding:14px;min-width:200px;max-width:240px;">
+        const isActive = p.active !== false;
+        const cardStyle = isActive ? '' : 'opacity:0.5;filter:grayscale(0.6);';
+        html += `<div style="border:1.5px solid var(--border-color);border-radius:10px;padding:14px;min-width:200px;max-width:240px;${cardStyle}">
             <div style="font-weight:700;">${p.name}${isBuiltin?' <span style="font-size:.75em;color:var(--text-muted);">[内置]</span>':''}</div>
             <div style="font-size:.82em;color:var(--text-muted);margin:4px 0 8px;">${p.desc}</div>
             <div style="color:#f5a623;font-weight:600;margin-bottom:8px;">🪙 ${p.price} 金币</div>
+            <div style="font-size:.78em;margin-bottom:8px;">
+                ${isActive ? '<span style="color:var(--success);">✓ 上架中</span>' : '<span style="color:var(--danger);">✗ 已下架</span>'}
+            </div>
             <div style="display:flex;gap:6px;">
-                ${!isBuiltin ? `<button class="btn btn-sm ${p.active?'':'btn-primary'}"
-                    onclick="toggleProduct('${p.id}',${!p.active})">${p.active?'下架':'上架'}</button>` : ''}
-                ${!isBuiltin ? `<button class="btn btn-sm btn-danger" onclick="deleteProduct('${p.id}','${p.name}')">删除</button>` : ''}
-                ${isBuiltin ? '<span style="color:var(--text-muted);font-size:.85em;">系统内置，无法删除</span>' : ''}
+                <button class="btn btn-sm ${isActive?'':'btn-primary'}"
+                    onclick="toggleProduct('${p.id}',${!isActive})">${isActive?'下架':'上架'}</button>
             </div>
         </div>`;
     }

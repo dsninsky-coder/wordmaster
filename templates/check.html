@@ -1,11 +1,11 @@
 {% extends "base.html" %}
-{% block title %}{% if type == 'study' %}新背单词{% else %}复习{% endif %} - 单词大师{% endblock %}
+{% block title %}{% if type == 'study' %}新背单词{% elif type == 'review' %}复习{% else %}考试{% endif %} - 单词大师{% endblock %}
 {% block content %}
 <div class="quiz-container">
     <!-- 顶部进度区 -->
     <div class="quiz-header">
         <div class="quiz-title" id="quiz-title">
-            {% if type == 'study' %}📖 新背单词{% else %}🔄 复习{% endif %}
+            {% if type == 'study' %}📖 新背单词{% elif type == 'review' %}🔄 复习{% else %}📝 考试{% endif %}
         </div>
         <div class="quiz-progress-wrap">
             <div class="quiz-progress-bar">
@@ -15,7 +15,8 @@
         </div>
     </div>
 
-    <!-- 模式切换 -->
+    <!-- 模式切换（考试模式隐藏） -->
+    {% if type != 'exam' %}
     <div class="mode-switcher">
         <button id="btn-en2zh" class="mode-btn active" onclick="requestSwitchMode('en2zh')">
             🔤 英→中
@@ -29,6 +30,9 @@
         </button>
         {% endif %}
     </div>
+    {% else %}
+    <div class="mode-switcher" style="display:none"></div>
+    {% endif %}
 
     <!-- 题目区 -->
     <div class="quiz-card" id="quiz-card">
@@ -113,9 +117,14 @@
              background:linear-gradient(90deg,#f6d365,#fda085);border-radius:10px;
              color:#fff;font-weight:700;font-size:1em;text-align:center;"></div>
         <div class="finish-actions">
+            {% if type == 'exam' %}
+            <a href="{{ url_for('exam') }}" class="btn btn-primary">返回考试列表</a>
+            <a href="{{ url_for('stats') }}" class="btn btn-secondary">查看统计</a>
+            {% else %}
             <a href="{{ url_for('study') }}" class="btn btn-primary">继续学习</a>
             <a href="{{ url_for('review') }}" class="btn btn-secondary">去复习</a>
             <a href="{{ url_for('stats') }}" class="btn btn-secondary">查看统计</a>
+            {% endif %}
         </div>
     </div>
 </div>
@@ -136,6 +145,8 @@
 <input type="hidden" id="quiz-type" value="{{ type }}">
 <input type="hidden" id="tts-in-en2zh" value="{{ '1' if tts_in_en2zh else '0' }}">
 <input type="hidden" id="audio2zh-enabled" value="{{ '1' if audio2zh_enabled else '0' }}">
+<input type="hidden" id="ticket-active" value="{{ '1' if ticket_active else '0' }}">
+<input type="hidden" id="exam-slot" value="{{ exam_slot }}">
 {% endblock %}
 
 {% block scripts %}
@@ -226,6 +237,7 @@ if ('speechSynthesis' in window) {
 const quizType = document.getElementById('quiz-type').value;
 const ttsInEn2zh = document.getElementById('tts-in-en2zh').value === '1';
 const audio2zhEnabled = document.getElementById('audio2zh-enabled').value === '1';
+const ticketActive = document.getElementById('ticket-active').value === '1';
 const submitBtn = document.getElementById('submit-btn');
 const nextBtn = document.getElementById('next-btn');
 const resultBox = document.getElementById('result-box');
@@ -314,6 +326,7 @@ function renderQuestion() {
     nextBtn.style.display = 'none';
     waitingNext = false;
     lastAnswerWrong = false;
+    // 免错券按钮：只在免错券上架时才显示
     document.getElementById('ticket-btn').style.display = 'none';
     const wordRow = document.getElementById('quiz-word-row');
     const audioPlayArea = document.getElementById('audio-play-area');
@@ -457,7 +470,8 @@ async function submitAnswer() {
         resultText.innerHTML = `<span class="result-icon">✗</span> ${data.message}`;
         expectedText.innerHTML = `正确答案：<strong>${data.expected}</strong>`;
         lastAnswerWrong = true;  // 标记需要 advance
-        document.getElementById('ticket-btn').style.display = '';
+        // 免错券按钮：只有在免错券上架时才显示
+        document.getElementById('ticket-btn').style.display = ticketActive ? '' : 'none';
         playWrongSound();
     }
 }
@@ -535,6 +549,11 @@ function showFinish(data) {
             (wrongCount > 0 ? `<br>📌 本轮答错 <strong>${wrongCount}</strong> 个单词，已重新加入待复习池。` : '') +
             (remaining > 0 ? `<br>📚 当前仍有 <strong>${remaining}</strong> 个单词待复习。` : '');
     }
+    if (!passed && quizType === 'exam') {
+        const tip = document.getElementById('cooldown-tip');
+        tip.style.display = 'block';
+        tip.innerHTML = `💪 考试未通过（需≥80%），可返回考试列表重新参加。`;
+    }
     if (passed && quizType === 'review') {
         const remaining = data.remaining_review || 0;
         if (remaining > 0) {
@@ -599,9 +618,12 @@ document.addEventListener('click', () => { if (_ac.state === 'suspended') _ac.re
 document.addEventListener('keydown', () => { if (_ac.state === 'suspended') _ac.resume(); }, { once: true });
 
 // ---- 启动 ----
-// 初始化模式按钮高亮
-document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
-document.getElementById('btn-' + currentMode).classList.add('active');
+// 初始化模式按钮高亮（考试模式无切换按钮）
+if (quizType !== 'exam') {
+    document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+    const activeBtn = document.getElementById('btn-' + currentMode);
+    if (activeBtn) activeBtn.classList.add('active');
+}
 
 fetchNext();
 </script>

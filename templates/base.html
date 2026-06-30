@@ -18,6 +18,9 @@
             <li><a href="{{ url_for('review') }}" {% if request.endpoint == 'review' %}class="active"{% endif %}>
                 <span class="nav-icon">🔄</span> 复习
             </a></li>
+            <li><a href="{{ url_for('exam') }}" {% if request.endpoint == 'exam' %}class="active"{% endif %}>
+                <span class="nav-icon">📝</span> 考试
+            </a></li>
             {% endif %}
             <li><a href="{{ url_for('import_words') }}" {% if request.endpoint == 'import_words' %}class="active"{% endif %}>
                 <span class="nav-icon">📥</span> 导入单词

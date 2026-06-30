@@ -49,7 +49,83 @@
     </div>
 </div>
 
-<!-- 分模式统计 -->
+<!-- 分类统计 -->
+<div class="mode-stats-row">
+    <div class="mode-stats-card mode-en2zh">
+        <div class="mode-stats-header">
+            <span class="mode-stats-icon">📖</span>
+            <span class="mode-stats-title">新背</span>
+        </div>
+        <div class="mode-stats-body">
+            <div class="mode-stat-item">
+                <span class="mode-stat-num">{{ study_stats.count }}</span>
+                <span class="mode-stat-label">次测验</span>
+            </div>
+            <div class="mode-stat-item">
+                <span class="mode-stat-num {{ 'stat-good' if study_stats.pass_rate >= 80 else 'stat-bad' }}">
+                    {{ study_stats.pass_rate }}%
+                </span>
+                <span class="mode-stat-label">通过率</span>
+            </div>
+            <div class="mode-stat-item">
+                <span class="mode-stat-num {{ 'stat-good' if study_stats.avg_percent >= 80 else 'stat-bad' }}">
+                    {{ study_stats.avg_percent }}%
+                </span>
+                <span class="mode-stat-label">平均正确率</span>
+            </div>
+        </div>
+    </div>
+    <div class="mode-stats-card mode-zh2en">
+        <div class="mode-stats-header">
+            <span class="mode-stats-icon">🔄</span>
+            <span class="mode-stats-title">复习</span>
+        </div>
+        <div class="mode-stats-body">
+            <div class="mode-stat-item">
+                <span class="mode-stat-num">{{ review_stats.count }}</span>
+                <span class="mode-stat-label">次测验</span>
+            </div>
+            <div class="mode-stat-item">
+                <span class="mode-stat-num {{ 'stat-good' if review_stats.pass_rate >= 80 else 'stat-bad' }}">
+                    {{ review_stats.pass_rate }}%
+                </span>
+                <span class="mode-stat-label">通过率</span>
+            </div>
+            <div class="mode-stat-item">
+                <span class="mode-stat-num {{ 'stat-good' if review_stats.avg_percent >= 80 else 'stat-bad' }}">
+                    {{ review_stats.avg_percent }}%
+                </span>
+                <span class="mode-stat-label">平均正确率</span>
+            </div>
+        </div>
+    </div>
+    <div class="mode-stats-card" style="border-color:var(--danger);background:var(--danger-light, #fff5f5);">
+        <div class="mode-stats-header">
+            <span class="mode-stats-icon">📝</span>
+            <span class="mode-stats-title">考试</span>
+        </div>
+        <div class="mode-stats-body">
+            <div class="mode-stat-item">
+                <span class="mode-stat-num">{{ exam_stats.count }}</span>
+                <span class="mode-stat-label">次考试</span>
+            </div>
+            <div class="mode-stat-item">
+                <span class="mode-stat-num {{ 'stat-good' if exam_stats.pass_rate >= 80 else 'stat-bad' }}">
+                    {{ exam_stats.pass_rate }}%
+                </span>
+                <span class="mode-stat-label">通过率</span>
+            </div>
+            <div class="mode-stat-item">
+                <span class="mode-stat-num {{ 'stat-good' if exam_stats.avg_percent >= 80 else 'stat-bad' }}">
+                    {{ exam_stats.avg_percent }}%
+                </span>
+                <span class="mode-stat-label">平均正确率</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 分模式统计（答题方向）-->
 <div class="mode-stats-row">
     <div class="mode-stats-card mode-en2zh">
         <div class="mode-stats-header">
@@ -132,6 +208,7 @@
         <button class="filter-btn active" onclick="filterRecords('all', this)">全部</button>
         <button class="filter-btn" onclick="filterRecords('study', this)">新背</button>
         <button class="filter-btn" onclick="filterRecords('review', this)">复习</button>
+        <button class="filter-btn" onclick="filterRecords('exam', this)">考试</button>
         <button class="filter-btn" onclick="filterRecords('en2zh', this)">英→中</button>
         <button class="filter-btn" onclick="filterRecords('zh2en', this)">中→英</button>
         <button class="filter-btn" onclick="filterRecords('audio2zh', this)">音→中</button>
@@ -161,6 +238,8 @@
                     <td>
                         {% if rec.mode is defined and rec.mode == 'review' %}
                         <span class="badge badge-warning">复习</span>
+                        {% elif rec.mode is defined and rec.mode == 'exam' %}
+                        <span class="badge badge-danger">考试</span>
                         {% else %}
                         <span class="badge badge-primary">新背</span>
                         {% endif %}
@@ -287,8 +366,10 @@ function filterRecords(filter, btn) {
         if (filter === 'all') show = true;
         else if (filter === 'study') show = (mode === 'study');
         else if (filter === 'review') show = (mode === 'review');
+        else if (filter === 'exam') show = (mode === 'exam');
         else if (filter === 'en2zh') show = (quizMode === 'en2zh');
         else if (filter === 'zh2en') show = (quizMode === 'zh2en');
+        else if (filter === 'audio2zh') show = (quizMode === 'audio2zh');
         row.style.display = show ? '' : 'none';
     });
 }
