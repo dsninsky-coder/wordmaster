@@ -346,8 +346,6 @@ function renderQuestion() {
         audioPlayArea.style.display = 'block';
         document.getElementById('speak-btn').style.display = 'none';
         renderEn2zhInput();  // 输入方式同英译汉
-        // 自动播放一次发音帮助用户
-        setTimeout(() => speakWordLocal(currentWord && currentWord.word), 300);
     } else {
         wordLabel.textContent = '中文释义';
         questionEl.textContent = currentWord.meaning;
